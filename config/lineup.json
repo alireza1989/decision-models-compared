@@ -1,0 +1,19 @@
+{
+  "frozen_on": "2026-11-18",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "note": "Newest version of each model family in the plan, as listed on OpenRouter on Nov 18, 2026. See data/openrouter_decision_models_2026-11-18.json.",
+  "models": [
+    {"name": "Jev 1.14", "id": "typesafe/jev-1.14", "status": "core"},
+    {"name": "Gemini Decision 1", "id": "google/gemini-decision-1", "status": "core"},
+    {"name": "OpenAI Decisions", "id": "openai/gpt-6-luna-decisions", "status": "core"},
+    {"name": "Microsoft Decision 1.1", "id": "microsoft/microsoft-decision-1.1", "status": "core"},
+    {"name": "Perplexity Decider v1.2", "id": "perplexity/pplx-decider-v1.2", "status": "core"},
+    {"name": "Drex Max", "id": "nace-ai/drex-max", "status": "core"},
+    {"name": "Liquid d1.2-ultra", "id": "liquid/d1.2-ultra", "status": "core"},
+    {"name": "Tev1-4B", "id": "togethercomputer/tev1-4b-experimental", "status": "core"},
+    {"name": "Clef", "id": "cloudflare/clef", "status": "optional"},
+    {"name": "Solar Decide", "id": "upstage/solar-decide", "status": "optional"},
+    {"name": "HeyGen Decision 1", "id": "heygen/heygen-decision-1", "status": "optional"},
+    {"name": "Jev 1.13 (post 1 anchor)", "id": "typesafe/jev-1.13", "status": "core"}
+  ]
+}

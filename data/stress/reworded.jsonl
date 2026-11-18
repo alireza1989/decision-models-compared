@@ -1,0 +1,300 @@
+{"text": "can i move some money around", "label": "transfer", "kind": "in", "id": "test-0005", "state": "can i move some money around"}
+{"text": "can i make a transfer between my accounts", "label": "transfer", "kind": "in", "id": "test-0006", "state": "can i make a transfer between my accounts"}
+{"text": "i need to make a transfer of my money", "label": "transfer", "kind": "in", "id": "test-0007", "state": "i need to make a transfer of my money"}
+{"text": "can i move some money between my two accounts", "label": "transfer", "kind": "in", "id": "test-0008", "state": "can i move some money between my two accounts"}
+{"text": "i would like to distribute some money between my accounts", "label": "transfer", "kind": "in", "id": "test-0009", "state": "i would like to distribute some money between my accounts"}
+{"text": "i would like to transfer $100 from my checking to saving account", "label": "transfer", "kind": "in", "id": "test-0010", "state": "i would like to transfer $100 from my checking to saving account"}
+{"text": "transfer $100 from my checking to saving account", "label": "transfer", "kind": "in", "id": "test-0012", "state": "transfer $100 from my checking to saving account"}
+{"text": "can you please help me move $100 from my checking to saving account", "label": "transfer", "kind": "in", "id": "test-0013", "state": "can you please help me move $100 from my checking to saving account"}
+{"text": "would you move 100 dollars from the checking and put it into savings", "label": "transfer", "kind": "in", "id": "test-0022", "state": "would you move 100 dollars from the checking and put it into savings"}
+{"text": "transer $800 from my checking to savings account", "label": "transfer", "kind": "in", "id": "test-0029", "state": "transer $800 from my checking to savings account"}
+{"text": "what are my coffers at", "label": "balance", "kind": "in", "id": "test-0030", "state": "what are my coffers at"}
+{"text": "how much do i have in my bank accounts", "label": "balance", "kind": "in", "id": "test-0033", "state": "how much do i have in my bank accounts"}
+{"text": "would you tell me my bank balance", "label": "balance", "kind": "in", "id": "test-0041", "state": "would you tell me my bank balance"}
+{"text": "can you tell me my bank balance", "label": "balance", "kind": "in", "id": "test-0042", "state": "can you tell me my bank balance"}
+{"text": "what the numerical number inside my bank accounts", "label": "balance", "kind": "in", "id": "test-0053", "state": "what the numerical number inside my bank accounts"}
+{"text": "tell me the current account balance", "label": "balance", "kind": "in", "id": "test-0055", "state": "tell me the current account balance"}
+{"text": "i want my account locked out", "label": "freeze_account", "kind": "in", "id": "test-0062", "state": "i want my account locked out"}
+{"text": "when did i last make a purchase", "label": "transactions", "kind": "in", "id": "test-0091", "state": "when did i last make a purchase"}
+{"text": "open bank app and show my most recent transactions", "label": "transactions", "kind": "in", "id": "test-0096", "state": "open bank app and show my most recent transactions"}
+{"text": "what was my recent transaction", "label": "transactions", "kind": "in", "id": "test-0099", "state": "what was my recent transaction"}
+{"text": "i need information about my recent transaction", "label": "transactions", "kind": "in", "id": "test-0101", "state": "i need information about my recent transaction"}
+{"text": "state recent transaction", "label": "transactions", "kind": "in", "id": "test-0102", "state": "state recent transaction"}
+{"text": "show what i have spent things on", "label": "transactions", "kind": "in", "id": "test-0107", "state": "show what i have spent things on"}
+{"text": "how much have i spent on my debit card this month", "label": "transactions", "kind": "in", "id": "test-0108", "state": "how much have i spent on my debit card this month"}
+{"text": "show my my most recent visa card transaction", "label": "transactions", "kind": "in", "id": "test-0114", "state": "show my my most recent visa card transaction"}
+{"text": "please review my recent visa card transaction", "label": "transactions", "kind": "in", "id": "test-0115", "state": "please review my recent visa card transaction"}
+{"text": "how many transactions do i have on flower shops from last wednesday between 2pm and 7pm", "label": "transactions", "kind": "in", "id": "test-0116", "state": "how many transactions do i have on flower shops from last wednesday between 2pm and 7pm"}
+{"text": "what is the largest transaction i have made on video games this month", "label": "transactions", "kind": "in", "id": "test-0118", "state": "what is the largest transaction i have made on video games this month"}
+{"text": "what transactions do i have on groceries from yesterday", "label": "transactions", "kind": "in", "id": "test-0119", "state": "what transactions do i have on groceries from yesterday"}
+{"text": "i need some assistance paying my utilities bill", "label": "pay_bill", "kind": "in", "id": "test-0126", "state": "i need some assistance paying my utilities bill"}
+{"text": "i want to pay my bill", "label": "pay_bill", "kind": "in", "id": "test-0131", "state": "i want to pay my bill"}
+{"text": "pay my light bill", "label": "pay_bill", "kind": "in", "id": "test-0138", "state": "pay my light bill"}
+{"text": "today my electric bill will be paid, or should be", "label": "pay_bill", "kind": "in", "id": "test-0144", "state": "today my electric bill will be paid, or should be"}
+{"text": "i need to pay my visa", "label": "pay_bill", "kind": "in", "id": "test-0147", "state": "i need to pay my visa"}
+{"text": "pay $175 on my visa", "label": "pay_bill", "kind": "in", "id": "test-0148", "state": "pay $175 on my visa"}
+{"text": "what have i spent on food this month", "label": "spending_history", "kind": "in", "id": "test-0152", "state": "what have i spent on food this month"}
+{"text": "how much have i spent on tires this month", "label": "spending_history", "kind": "in", "id": "test-0153", "state": "how much have i spent on tires this month"}
+{"text": "what have i spent on fast food recently", "label": "spending_history", "kind": "in", "id": "test-0155", "state": "what have i spent on fast food recently"}
+{"text": "check how much i spent this week", "label": "spending_history", "kind": "in", "id": "test-0158", "state": "check how much i spent this week"}
+{"text": "how much money did i spend this weekend", "label": "spending_history", "kind": "in", "id": "test-0161", "state": "how much money did i spend this weekend"}
+{"text": "would you say i've spent too much money on chips as of late", "label": "spending_history", "kind": "in", "id": "test-0166", "state": "would you say i've spent too much money on chips as of late"}
+{"text": "did i stick to my dinner budget", "label": "spending_history", "kind": "in", "id": "test-0175", "state": "did i stick to my dinner budget"}
+{"text": "how much have i spent on video games recently", "label": "spending_history", "kind": "in", "id": "test-0176", "state": "how much have i spent on video games recently"}
+{"text": "do i spend too much on beer", "label": "spending_history", "kind": "in", "id": "test-0177", "state": "do i spend too much on beer"}
+{"text": "when is my electric bill due by", "label": "bill_due", "kind": "in", "id": "test-0180", "state": "when is my electric bill due by"}
+{"text": "when is my car insurance bill due", "label": "bill_due", "kind": "in", "id": "test-0181", "state": "when is my car insurance bill due"}
+{"text": "how long until my water bill is due", "label": "bill_due", "kind": "in", "id": "test-0182", "state": "how long until my water bill is due"}
+{"text": "where can i find when my car payment bill is due", "label": "bill_due", "kind": "in", "id": "test-0190", "state": "where can i find when my car payment bill is due"}
+{"text": "tell me the last day i can pay my gas bill", "label": "bill_due", "kind": "in", "id": "test-0192", "state": "tell me the last day i can pay my gas bill"}
+{"text": "can you tell me when my cable bill is due", "label": "bill_due", "kind": "in", "id": "test-0197", "state": "can you tell me when my cable bill is due"}
+{"text": "i want to know when the deadline is to pay my car loan", "label": "bill_due", "kind": "in", "id": "test-0203", "state": "i want to know when the deadline is to pay my car loan"}
+{"text": "tell me my routing number", "label": "routing", "kind": "in", "id": "test-0218", "state": "tell me my routing number"}
+{"text": "where should i go to find the routing number for well's fargo", "label": "routing", "kind": "in", "id": "test-0223", "state": "where should i go to find the routing number for well's fargo"}
+{"text": "where can i find routing number for pnc", "label": "routing", "kind": "in", "id": "test-0231", "state": "where can i find routing number for pnc"}
+{"text": "what is the routing number for pnc", "label": "routing", "kind": "in", "id": "test-0232", "state": "what is the routing number for pnc"}
+{"text": "tell me what my savings account routing number is", "label": "routing", "kind": "in", "id": "test-0238", "state": "tell me what my savings account routing number is"}
+{"text": "i would like to change the name on my capital one account", "label": "pin_change", "kind": "in", "id": "test-0249", "state": "i would like to change the name on my capital one account"}
+{"text": "i want to change my savings account pin to 1234", "label": "pin_change", "kind": "in", "id": "test-0251", "state": "i want to change my savings account pin to 1234"}
+{"text": "modify my account pin to 1234 on my checking account", "label": "pin_change", "kind": "in", "id": "test-0259", "state": "modify my account pin to 1234 on my checking account"}
+{"text": "alter the pin on my savings account to be 1234", "label": "pin_change", "kind": "in", "id": "test-0266", "state": "alter the pin on my savings account to be 1234"}
+{"text": "check with my bank to see why my account is frozen", "label": "account_blocked", "kind": "in", "id": "test-0276", "state": "check with my bank to see why my account is frozen"}
+{"text": "why is my checking account not working", "label": "account_blocked", "kind": "in", "id": "test-0285", "state": "why is my checking account not working"}
+{"text": "can you check and see why us bank put a hold on my account", "label": "account_blocked", "kind": "in", "id": "test-0288", "state": "can you check and see why us bank put a hold on my account"}
+{"text": "why does us bank have a hold on my account", "label": "account_blocked", "kind": "in", "id": "test-0289", "state": "why does us bank have a hold on my account"}
+{"text": "i want to report fraudulent activity on my navy federal card", "label": "report_fraud", "kind": "in", "id": "test-0300", "state": "i want to report fraudulent activity on my navy federal card"}
+{"text": "i would like to report fraudulent activity on my chase card", "label": "report_fraud", "kind": "in", "id": "test-0301", "state": "i would like to report fraudulent activity on my chase card"}
+{"text": "my account shows a transaction that i didn't make from foot locker", "label": "report_fraud", "kind": "in", "id": "test-0307", "state": "my account shows a transaction that i didn't make from foot locker"}
+{"text": "i have some charges on my account from old navy that aren't mine", "label": "report_fraud", "kind": "in", "id": "test-0309", "state": "i have some charges on my account from old navy that aren't mine"}
+{"text": "i think this transaction is bogus", "label": "report_fraud", "kind": "in", "id": "test-0314", "state": "i think this transaction is bogus"}
+{"text": "do i have a fraudulent transaction on my account", "label": "report_fraud", "kind": "in", "id": "test-0318", "state": "do i have a fraudulent transaction on my account"}
+{"text": "i think there's a fraudulent charge from mcdonald's on my account", "label": "report_fraud", "kind": "in", "id": "test-0321", "state": "i think there's a fraudulent charge from mcdonald's on my account"}
+{"text": "there's a messed up transaction on my account from mcdonald's", "label": "report_fraud", "kind": "in", "id": "test-0325", "state": "there's a messed up transaction on my account from mcdonald's"}
+{"text": "what is the lowest amount i must pay on my verizon bill", "label": "min_payment", "kind": "in", "id": "test-0331", "state": "what is the lowest amount i must pay on my verizon bill"}
+{"text": "what is the minimum i can pay on my insurance bill", "label": "min_payment", "kind": "in", "id": "test-0345", "state": "what is the minimum i can pay on my insurance bill"}
+{"text": "where do i see what interest my mortgage has", "label": "interest_rate", "kind": "in", "id": "test-0361", "state": "where do i see what interest my mortgage has"}
+{"text": "what interest rate am i getting from citrix", "label": "interest_rate", "kind": "in", "id": "test-0368", "state": "what interest rate am i getting from citrix"}
+{"text": "what's my checking account yielding in interest", "label": "interest_rate", "kind": "in", "id": "test-0370", "state": "what's my checking account yielding in interest"}
+{"text": "can i get the interest rate for my checking account", "label": "interest_rate", "kind": "in", "id": "test-0380", "state": "can i get the interest rate for my checking account"}
+{"text": "what does my checking account at chase earn in interest", "label": "interest_rate", "kind": "in", "id": "test-0386", "state": "what does my checking account at chase earn in interest"}
+{"text": "what does chase pay in interest per year", "label": "interest_rate", "kind": "in", "id": "test-0389", "state": "what does chase pay in interest per year"}
+{"text": "what is the amount due on my visa", "label": "bill_balance", "kind": "in", "id": "test-0391", "state": "what is the amount due on my visa"}
+{"text": "how much do i owe visa", "label": "bill_balance", "kind": "in", "id": "test-0392", "state": "how much do i owe visa"}
+{"text": "i need to know the price of my car payment and insurance please", "label": "bill_balance", "kind": "in", "id": "test-0395", "state": "i need to know the price of my car payment and insurance please"}
+{"text": "how much is my water and sewer", "label": "bill_balance", "kind": "in", "id": "test-0397", "state": "how much is my water and sewer"}
+{"text": "how much does my water and electricity cost", "label": "bill_balance", "kind": "in", "id": "test-0401", "state": "how much does my water and electricity cost"}
+{"text": "i think i owe about 100 left on my bills, am i forgetting anything", "label": "bill_balance", "kind": "in", "id": "test-0404", "state": "i think i owe about 100 left on my bills, am i forgetting anything"}
+{"text": "what are my bills this month", "label": "bill_balance", "kind": "in", "id": "test-0405", "state": "what are my bills this month"}
+{"text": "has my electricity bill increased this month how much", "label": "bill_balance", "kind": "in", "id": "test-0407", "state": "has my electricity bill increased this month how much"}
+{"text": "how expensive is my internet", "label": "bill_balance", "kind": "in", "id": "test-0408", "state": "how expensive is my internet"}
+{"text": "how much will my monthly bill be", "label": "bill_balance", "kind": "in", "id": "test-0409", "state": "how much will my monthly bill be"}
+{"text": "how much is due for my water bill", "label": "bill_balance", "kind": "in", "id": "test-0413", "state": "how much is due for my water bill"}
+{"text": "how much do i have to pay this month", "label": "bill_balance", "kind": "in", "id": "test-0414", "state": "how much do i have to pay this month"}
+{"text": "can i get some more checkbooks mailed to me, please", "label": "order_checks", "kind": "in", "id": "test-0422", "state": "can i get some more checkbooks mailed to me, please"}
+{"text": "could i get some more checkbooks sent to me, please", "label": "order_checks", "kind": "in", "id": "test-0424", "state": "could i get some more checkbooks sent to me, please"}
+{"text": "send me more checkbooks please", "label": "order_checks", "kind": "in", "id": "test-0431", "state": "send me more checkbooks please"}
+{"text": "please mail me more checkbooks", "label": "order_checks", "kind": "in", "id": "test-0432", "state": "please mail me more checkbooks"}
+{"text": "how do i order some more checks for my bank of the west account", "label": "order_checks", "kind": "in", "id": "test-0435", "state": "how do i order some more checks for my bank of the west account"}
+{"text": "how do i order some more checks for my chase account", "label": "order_checks", "kind": "in", "id": "test-0437", "state": "how do i order some more checks for my chase account"}
+{"text": "i'm out of my checks i need some new ones", "label": "order_checks", "kind": "in", "id": "test-0441", "state": "i'm out of my checks i need some new ones"}
+{"text": "may i order more checks for my well's fargo account", "label": "order_checks", "kind": "in", "id": "test-0445", "state": "may i order more checks for my well's fargo account"}
+{"text": "how can i increase my credit score", "label": "out_of_scope", "kind": "near", "id": "test-0450", "state": "how can i increase my credit score"}
+{"text": "how can i keep my credit score from falling", "label": "out_of_scope", "kind": "near", "id": "test-0458", "state": "how can i keep my credit score from falling"}
+{"text": "how can i prevent my credit score from dropping", "label": "out_of_scope", "kind": "near", "id": "test-0460", "state": "how can i prevent my credit score from dropping"}
+{"text": "give me some tips on building up my credit score", "label": "out_of_scope", "kind": "near", "id": "test-0462", "state": "give me some tips on building up my credit score"}
+{"text": "how can i rehabilitate my poor credit score", "label": "out_of_scope", "kind": "near", "id": "test-0463", "state": "how can i rehabilitate my poor credit score"}
+{"text": "i want to know how i can build up a good credit score", "label": "out_of_scope", "kind": "near", "id": "test-0468", "state": "i want to know how i can build up a good credit score"}
+{"text": "\"which could be improve the credit score", "label": "out_of_scope", "kind": "near", "id": "test-0471", "state": "\"which could be improve the credit score"}
+{"text": "\"where is improve the credit score", "label": "out_of_scope", "kind": "near", "id": "test-0473", "state": "\"where is improve the credit score"}
+{"text": "i have a revolving store card and defaulted so will my fico score be affected", "label": "out_of_scope", "kind": "near", "id": "test-0475", "state": "i have a revolving store card and defaulted so will my fico score be affected"}
+{"text": "can i hurt my credit rating if i open several credit cards in a short time frame", "label": "out_of_scope", "kind": "near", "id": "test-0478", "state": "can i hurt my credit rating if i open several credit cards in a short time frame"}
+{"text": "will only having five late payments really make my credit bad", "label": "out_of_scope", "kind": "near", "id": "test-0479", "state": "will only having five late payments really make my credit bad"}
+{"text": "what is amount of time it takes to get a new credit card i lost mine recently", "label": "out_of_scope", "kind": "near", "id": "test-0488", "state": "what is amount of time it takes to get a new credit card i lost mine recently"}
+{"text": "what is the time frame for sending a customer who lost their credit card a new one", "label": "out_of_scope", "kind": "near", "id": "test-0489", "state": "what is the time frame for sending a customer who lost their credit card a new one"}
+{"text": "what is the shipping status of my replacement card", "label": "out_of_scope", "kind": "near", "id": "test-0491", "state": "what is the shipping status of my replacement card"}
+{"text": "how long until i get my replacement card", "label": "out_of_scope", "kind": "near", "id": "test-0492", "state": "how long until i get my replacement card"}
+{"text": "time to order and receive a new credit card", "label": "out_of_scope", "kind": "near", "id": "test-0499", "state": "time to order and receive a new credit card"}
+{"text": "how long before the replacement card is mailed to me", "label": "out_of_scope", "kind": "near", "id": "test-0502", "state": "how long before the replacement card is mailed to me"}
+{"text": "let me know the wait on a replacement credit card", "label": "out_of_scope", "kind": "near", "id": "test-0507", "state": "let me know the wait on a replacement credit card"}
+{"text": "i would like to know the status of my credit card application", "label": "out_of_scope", "kind": "near", "id": "test-0513", "state": "i would like to know the status of my credit card application"}
+{"text": "let me know if my application for american saving bank", "label": "out_of_scope", "kind": "near", "id": "test-0514", "state": "let me know if my application for american saving bank"}
+{"text": "how far has my application for the hsbc card proceeded till now", "label": "out_of_scope", "kind": "near", "id": "test-0533", "state": "how far has my application for the hsbc card proceeded till now"}
+{"text": "did the application for my visa card finish", "label": "out_of_scope", "kind": "near", "id": "test-0534", "state": "did the application for my visa card finish"}
+{"text": "can you give me a points update on my rewards plus card", "label": "out_of_scope", "kind": "near", "id": "test-0541", "state": "can you give me a points update on my rewards plus card"}
+{"text": "how many points do i have on my six flags rewards card", "label": "out_of_scope", "kind": "near", "id": "test-0544", "state": "how many points do i have on my six flags rewards card"}
+{"text": "i need to check my rewards for my credit card", "label": "out_of_scope", "kind": "near", "id": "test-0546", "state": "i need to check my rewards for my credit card"}
+{"text": "i gotta know how many points i have gotten with my debit card", "label": "out_of_scope", "kind": "near", "id": "test-0559", "state": "i gotta know how many points i have gotten with my debit card"}
+{"text": "how many points do i have on my visa", "label": "out_of_scope", "kind": "near", "id": "test-0565", "state": "how many points do i have on my visa"}
+{"text": "tell me what my credit score is", "label": "out_of_scope", "kind": "near", "id": "test-0571", "state": "tell me what my credit score is"}
+{"text": "can you find what my credit score is", "label": "out_of_scope", "kind": "near", "id": "test-0572", "state": "can you find what my credit score is"}
+{"text": "what is my credit score number", "label": "out_of_scope", "kind": "near", "id": "test-0575", "state": "what is my credit score number"}
+{"text": "is my credit score over 700 yet", "label": "out_of_scope", "kind": "near", "id": "test-0578", "state": "is my credit score over 700 yet"}
+{"text": "could you tell me what my credit score is", "label": "out_of_scope", "kind": "near", "id": "test-0582", "state": "could you tell me what my credit score is"}
+{"text": "give me my credit score please", "label": "out_of_scope", "kind": "near", "id": "test-0583", "state": "give me my credit score please"}
+{"text": "how can i locate my credit score", "label": "out_of_scope", "kind": "near", "id": "test-0589", "state": "how can i locate my credit score"}
+{"text": "give me my credit rating", "label": "out_of_scope", "kind": "near", "id": "test-0594", "state": "give me my credit rating"}
+{"text": "can you check my credit score", "label": "out_of_scope", "kind": "near", "id": "test-0598", "state": "can you check my credit score"}
+{"text": "i would love to get a new credit card", "label": "out_of_scope", "kind": "near", "id": "test-0601", "state": "i would love to get a new credit card"}
+{"text": "do you have any information on how to open a new credit card", "label": "out_of_scope", "kind": "near", "id": "test-0602", "state": "do you have any information on how to open a new credit card"}
+{"text": "tell me how to apply for a credit card", "label": "out_of_scope", "kind": "near", "id": "test-0604", "state": "tell me how to apply for a credit card"}
+{"text": "i want to know how to go about getting a new credit card", "label": "out_of_scope", "kind": "near", "id": "test-0605", "state": "i want to know how to go about getting a new credit card"}
+{"text": "what's the best way to get a mastercard", "label": "out_of_scope", "kind": "near", "id": "test-0609", "state": "what's the best way to get a mastercard"}
+{"text": "does bank of america give credit cards to people like me", "label": "out_of_scope", "kind": "near", "id": "test-0616", "state": "does bank of america give credit cards to people like me"}
+{"text": "is it possible for me to get a better credit card", "label": "out_of_scope", "kind": "near", "id": "test-0618", "state": "is it possible for me to get a better credit card"}
+{"text": "can i apply for a visa card", "label": "out_of_scope", "kind": "near", "id": "test-0624", "state": "can i apply for a visa card"}
+{"text": "how do i apply for a visa card", "label": "out_of_scope", "kind": "near", "id": "test-0625", "state": "how do i apply for a visa card"}
+{"text": "now tell me my credit card's apr", "label": "out_of_scope", "kind": "near", "id": "test-0631", "state": "now tell me my credit card's apr"}
+{"text": "i need to know the apr on my wells fargo credit card", "label": "out_of_scope", "kind": "near", "id": "test-0632", "state": "i need to know the apr on my wells fargo credit card"}
+{"text": "what is my b of a credit card's apr", "label": "out_of_scope", "kind": "near", "id": "test-0635", "state": "what is my b of a credit card's apr"}
+{"text": "what's the apr on my credit card", "label": "out_of_scope", "kind": "near", "id": "test-0645", "state": "what's the apr on my credit card"}
+{"text": "tell me my apr rate", "label": "out_of_scope", "kind": "near", "id": "test-0653", "state": "tell me my apr rate"}
+{"text": "could you share my credit card's apr", "label": "out_of_scope", "kind": "near", "id": "test-0654", "state": "could you share my credit card's apr"}
+{"text": "i lost my card and need to report it", "label": "out_of_scope", "kind": "near", "id": "test-0668", "state": "i lost my card and need to report it"}
+{"text": "please tell me how to go about reporting a lost card", "label": "out_of_scope", "kind": "near", "id": "test-0672", "state": "please tell me how to go about reporting a lost card"}
+{"text": "i need to to know how to report a lost card", "label": "out_of_scope", "kind": "near", "id": "test-0674", "state": "i need to to know how to report a lost card"}
+{"text": "my capital one visa was taken without permission", "label": "out_of_scope", "kind": "near", "id": "test-0678", "state": "my capital one visa was taken without permission"}
+{"text": "i need to report that someone ran off with my td bank card earlier", "label": "out_of_scope", "kind": "near", "id": "test-0679", "state": "i need to report that someone ran off with my td bank card earlier"}
+{"text": "my report card was lost help!", "label": "out_of_scope", "kind": "near", "id": "test-0689", "state": "my report card was lost help!"}
+{"text": "tell me how to go about reporting a damaged card", "label": "out_of_scope", "kind": "near", "id": "test-0690", "state": "tell me how to go about reporting a damaged card"}
+{"text": "my card has become too frayed and torn to use", "label": "out_of_scope", "kind": "near", "id": "test-0695", "state": "my card has become too frayed and torn to use"}
+{"text": "what do i do about a card that's too messed up to be properly scanned", "label": "out_of_scope", "kind": "near", "id": "test-0696", "state": "what do i do about a card that's too messed up to be properly scanned"}
+{"text": "what do i do with a damaged credit card", "label": "out_of_scope", "kind": "near", "id": "test-0701", "state": "what do i do with a damaged credit card"}
+{"text": "i have a card that needs replaced because my wine dumped wine on it", "label": "out_of_scope", "kind": "near", "id": "test-0703", "state": "i have a card that needs replaced because my wine dumped wine on it"}
+{"text": "my dog swallowed my credit card and i need a new one", "label": "out_of_scope", "kind": "near", "id": "test-0705", "state": "my dog swallowed my credit card and i need a new one"}
+{"text": "i'm unable to use my card because it's been ruined", "label": "out_of_scope", "kind": "near", "id": "test-0708", "state": "i'm unable to use my card because it's been ruined"}
+{"text": "i can't use my card because it\u2019s damaged badly", "label": "out_of_scope", "kind": "near", "id": "test-0709", "state": "i can't use my card because it\u2019s damaged badly"}
+{"text": "who should i talk to about the fact that i inadvertently split my card almost in half", "label": "out_of_scope", "kind": "near", "id": "test-0714", "state": "who should i talk to about the fact that i inadvertently split my card almost in half"}
+{"text": "what's the most i can charge on my card", "label": "out_of_scope", "kind": "near", "id": "test-0720", "state": "what's the most i can charge on my card"}
+{"text": "how much of a credit limit does visa allow", "label": "out_of_scope", "kind": "near", "id": "test-0723", "state": "how much of a credit limit does visa allow"}
+{"text": "as my visa got a high enough limit on it", "label": "out_of_scope", "kind": "near", "id": "test-0725", "state": "as my visa got a high enough limit on it"}
+{"text": "what's my daily spending limit", "label": "out_of_scope", "kind": "near", "id": "test-0728", "state": "what's my daily spending limit"}
+{"text": "what's my spending limit on my discover", "label": "out_of_scope", "kind": "near", "id": "test-0735", "state": "what's my spending limit on my discover"}
+{"text": "how much is my maximum to spend on credit cards", "label": "out_of_scope", "kind": "near", "id": "test-0736", "state": "how much is my maximum to spend on credit cards"}
+{"text": "how much can i use on my visa", "label": "out_of_scope", "kind": "near", "id": "test-0738", "state": "how much can i use on my visa"}
+{"text": "i want to know my credit limit", "label": "out_of_scope", "kind": "near", "id": "test-0749", "state": "i want to know my credit limit"}
+{"text": "how many transaction fees are there when i use my discover card in rome", "label": "out_of_scope", "kind": "near", "id": "test-0761", "state": "how many transaction fees are there when i use my discover card in rome"}
+{"text": "is there a charge to use my card in france", "label": "out_of_scope", "kind": "near", "id": "test-0769", "state": "is there a charge to use my card in france"}
+{"text": "is there an international charge for using my card in france", "label": "out_of_scope", "kind": "near", "id": "test-0773", "state": "is there an international charge for using my card in france"}
+{"text": "will it cost me anything to use my card in turin", "label": "out_of_scope", "kind": "near", "id": "test-0779", "state": "will it cost me anything to use my card in turin"}
+{"text": "can i change my credit limit", "label": "out_of_scope", "kind": "near", "id": "test-0781", "state": "can i change my credit limit"}
+{"text": "can i get more credit", "label": "out_of_scope", "kind": "near", "id": "test-0782", "state": "can i get more credit"}
+{"text": "i need to change the credit limit i have", "label": "out_of_scope", "kind": "near", "id": "test-0783", "state": "i need to change the credit limit i have"}
+{"text": "can my credit limit be increased by 500 dollars", "label": "out_of_scope", "kind": "near", "id": "test-0790", "state": "can my credit limit be increased by 500 dollars"}
+{"text": "can i increase the credit limit on my discover card", "label": "out_of_scope", "kind": "near", "id": "test-0796", "state": "can i increase the credit limit on my discover card"}
+{"text": "how can i get my credit limit to be increased to $1000", "label": "out_of_scope", "kind": "near", "id": "test-0799", "state": "how can i get my credit limit to be increased to $1000"}
+{"text": "how do i get my credit limit increased to $1000", "label": "out_of_scope", "kind": "near", "id": "test-0801", "state": "how do i get my credit limit increased to $1000"}
+{"text": "how can i get a limit increase on my discover card", "label": "out_of_scope", "kind": "near", "id": "test-0804", "state": "how can i get a limit increase on my discover card"}
+{"text": "how many points do i have to cash", "label": "out_of_scope", "kind": "near", "id": "test-0812", "state": "how many points do i have to cash"}
+{"text": "can i redeem my points on gas", "label": "out_of_scope", "kind": "near", "id": "test-0820", "state": "can i redeem my points on gas"}
+{"text": "how can i get my rewards for my master card", "label": "out_of_scope", "kind": "near", "id": "test-0827", "state": "how can i get my rewards for my master card"}
+{"text": "i need to use my credit points", "label": "out_of_scope", "kind": "near", "id": "test-0833", "state": "i need to use my credit points"}
+{"text": "what is the expiration month of my card", "label": "out_of_scope", "kind": "near", "id": "test-0848", "state": "what is the expiration month of my card"}
+{"text": "let me know when my credit card expire", "label": "out_of_scope", "kind": "near", "id": "test-0850", "state": "let me know when my credit card expire"}
+{"text": "when it my citi card expired", "label": "out_of_scope", "kind": "near", "id": "test-0857", "state": "when it my citi card expired"}
+{"text": "when is my card expired", "label": "out_of_scope", "kind": "near", "id": "test-0858", "state": "when is my card expired"}
+{"text": "when will my new credit card arrive", "label": "out_of_scope", "kind": "near", "id": "test-0862", "state": "when will my new credit card arrive"}
+{"text": "can you tell me what the date of expiry for my visa card is", "label": "out_of_scope", "kind": "near", "id": "test-0865", "state": "can you tell me what the date of expiry for my visa card is"}
+{"text": "i was trying to buy food at publix but my card got declined", "label": "out_of_scope", "kind": "near", "id": "test-0879", "state": "i was trying to buy food at publix but my card got declined"}
+{"text": "i was in australia trying to buy chips and my cards got declined", "label": "out_of_scope", "kind": "near", "id": "test-0886", "state": "i was in australia trying to buy chips and my cards got declined"}
+{"text": "i was in thailand and i could not use my card to buy snacks", "label": "out_of_scope", "kind": "near", "id": "test-0890", "state": "i was in thailand and i could not use my card to buy snacks"}
+{"text": "why did i get rejected on my card", "label": "out_of_scope", "kind": "near", "id": "test-0897", "state": "why did i get rejected on my card"}
+{"text": "how many people have held the role of county attorney bearing the family name \"dixon\"", "label": "out_of_scope", "kind": "far", "id": "test-0908", "state": "how many people have held the role of county attorney bearing the family name \"dixon\""}
+{"text": "have you seen the remote", "label": "out_of_scope", "kind": "far", "id": "test-0909", "state": "have you seen the remote"}
+{"text": "what are the best personal finance practices", "label": "out_of_scope", "kind": "far", "id": "test-0911", "state": "what are the best personal finance practices"}
+{"text": "was the god osiris a titan or an old god", "label": "out_of_scope", "kind": "far", "id": "test-0919", "state": "was the god osiris a titan or an old god"}
+{"text": "what is one standard deviation", "label": "out_of_scope", "kind": "far", "id": "test-0920", "state": "what is one standard deviation"}
+{"text": "do other providers have better coverage than my cell carrier", "label": "out_of_scope", "kind": "far", "id": "test-0921", "state": "do other providers have better coverage than my cell carrier"}
+{"text": "i need to add a person to my bank account", "label": "out_of_scope", "kind": "far", "id": "test-0923", "state": "i need to add a person to my bank account"}
+{"text": "what is my checking account number", "label": "out_of_scope", "kind": "far", "id": "test-0924", "state": "what is my checking account number"}
+{"text": "what is a good movie to go see in theaters for a family with young kids", "label": "out_of_scope", "kind": "far", "id": "test-0925", "state": "what is a good movie to go see in theaters for a family with young kids"}
+{"text": "what is albert einstein famous for", "label": "out_of_scope", "kind": "far", "id": "test-0929", "state": "what is albert einstein famous for"}
+{"text": "give me a suggestion for roofers", "label": "out_of_scope", "kind": "far", "id": "test-0944", "state": "give me a suggestion for roofers"}
+{"text": "what's the most practiced form of mma in the world", "label": "out_of_scope", "kind": "far", "id": "test-0947", "state": "what's the most practiced form of mma in the world"}
+{"text": "give me an energy usage breakdown for march", "label": "out_of_scope", "kind": "far", "id": "test-0948", "state": "give me an energy usage breakdown for march"}
+{"text": "make me a list of the top ten reviewed hiking boots on jetcom", "label": "out_of_scope", "kind": "far", "id": "test-0957", "state": "make me a list of the top ten reviewed hiking boots on jetcom"}
+{"text": "check to see if i need a pass to use the parking garages downtown", "label": "out_of_scope", "kind": "far", "id": "test-0978", "state": "check to see if i need a pass to use the parking garages downtown"}
+{"text": "how do you unclog a toilet", "label": "out_of_scope", "kind": "far", "id": "test-0983", "state": "how do you unclog a toilet"}
+{"text": "how unhealthy is stress", "label": "out_of_scope", "kind": "far", "id": "test-0984", "state": "how unhealthy is stress"}
+{"text": "how much does a nintendo switch cost", "label": "out_of_scope", "kind": "far", "id": "test-0986", "state": "how much does a nintendo switch cost"}
+{"text": "restart my newspaper delivery for monday", "label": "out_of_scope", "kind": "far", "id": "test-0991", "state": "restart my newspaper delivery for monday"}
+{"text": "what does the plus sign mean on my dashboard", "label": "out_of_scope", "kind": "far", "id": "test-1005", "state": "what does the plus sign mean on my dashboard"}
+{"text": "how many hurricanes are in an average hurricane season", "label": "out_of_scope", "kind": "far", "id": "test-1014", "state": "how many hurricanes are in an average hurricane season"}
+{"text": "how hard is it to close a bank account at wells fargo", "label": "out_of_scope", "kind": "far", "id": "test-1016", "state": "how hard is it to close a bank account at wells fargo"}
+{"text": "review my resume for spelling errors", "label": "out_of_scope", "kind": "far", "id": "test-1019", "state": "review my resume for spelling errors"}
+{"text": "how old is the oldest person that is in the guiness book of world records", "label": "out_of_scope", "kind": "far", "id": "test-1020", "state": "how old is the oldest person that is in the guiness book of world records"}
+{"text": "can you tell me whether the knicks will play the lakers this week", "label": "out_of_scope", "kind": "far", "id": "test-1027", "state": "can you tell me whether the knicks will play the lakers this week"}
+{"text": "can you tell me the score of the heat game", "label": "out_of_scope", "kind": "far", "id": "test-1028", "state": "can you tell me the score of the heat game"}
+{"text": "what are the different types of tvs", "label": "out_of_scope", "kind": "far", "id": "test-1031", "state": "what are the different types of tvs"}
+{"text": "can you book me a tee time at cantigny at 2 pm on saturday", "label": "out_of_scope", "kind": "far", "id": "test-1034", "state": "can you book me a tee time at cantigny at 2 pm on saturday"}
+{"text": "what store has the best deals going on right now", "label": "out_of_scope", "kind": "far", "id": "test-1035", "state": "what store has the best deals going on right now"}
+{"text": "how many people are jobless in america", "label": "out_of_scope", "kind": "far", "id": "test-1040", "state": "how many people are jobless in america"}
+{"text": "what movie does it's just a flesh wound come from", "label": "out_of_scope", "kind": "far", "id": "test-1048", "state": "what movie does it's just a flesh wound come from"}
+{"text": "how can i get a better rate on my card", "label": "out_of_scope", "kind": "far", "id": "test-1050", "state": "how can i get a better rate on my card"}
+{"text": "has ko gone up or down", "label": "out_of_scope", "kind": "far", "id": "test-1051", "state": "has ko gone up or down"}
+{"text": "where are classes taught near me for c++", "label": "out_of_scope", "kind": "far", "id": "test-1053", "state": "where are classes taught near me for c++"}
+{"text": "how do i get red wine out of a couch cushion", "label": "out_of_scope", "kind": "far", "id": "test-1062", "state": "how do i get red wine out of a couch cushion"}
+{"text": "please check up on my son's homework", "label": "out_of_scope", "kind": "far", "id": "test-1065", "state": "please check up on my son's homework"}
+{"text": "has everyone come home from school", "label": "out_of_scope", "kind": "far", "id": "test-1066", "state": "has everyone come home from school"}
+{"text": "where is te lawrence", "label": "out_of_scope", "kind": "far", "id": "test-1067", "state": "where is te lawrence"}
+{"text": "i have a rash, what can i use for it", "label": "out_of_scope", "kind": "far", "id": "test-1068", "state": "i have a rash, what can i use for it"}
+{"text": "where can i find cheap rental skis nearby", "label": "out_of_scope", "kind": "far", "id": "test-1073", "state": "where can i find cheap rental skis nearby"}
+{"text": "how do i make money", "label": "out_of_scope", "kind": "far", "id": "test-1074", "state": "how do i make money"}
+{"text": "what was the point of the crusades", "label": "out_of_scope", "kind": "far", "id": "test-1076", "state": "what was the point of the crusades"}
+{"text": "what time did i get the last text message i received", "label": "out_of_scope", "kind": "far", "id": "test-1077", "state": "what time did i get the last text message i received"}
+{"text": "can you look up how i shoot a time lapse video on my iphone camera or is it even possible", "label": "out_of_scope", "kind": "far", "id": "test-1083", "state": "can you look up how i shoot a time lapse video on my iphone camera or is it even possible"}
+{"text": "has there been any times when lebron james was arrested", "label": "out_of_scope", "kind": "far", "id": "test-1091", "state": "has there been any times when lebron james was arrested"}
+{"text": "what activities can i to do outside today", "label": "out_of_scope", "kind": "far", "id": "test-1102", "state": "what activities can i to do outside today"}
+{"text": "what veggies can i pair with mushrooms", "label": "out_of_scope", "kind": "far", "id": "test-1104", "state": "what veggies can i pair with mushrooms"}
+{"text": "do you know where the remote is", "label": "out_of_scope", "kind": "far", "id": "test-1106", "state": "do you know where the remote is"}
+{"text": "how would you rate the airport i am traveling to", "label": "out_of_scope", "kind": "far", "id": "test-1108", "state": "how would you rate the airport i am traveling to"}
+{"text": "what channel is cw on", "label": "out_of_scope", "kind": "far", "id": "test-1109", "state": "what channel is cw on"}
+{"text": "how many voicemails are currently in my inbox", "label": "out_of_scope", "kind": "far", "id": "test-1111", "state": "how many voicemails are currently in my inbox"}
+{"text": "what are the best jeans in my size", "label": "out_of_scope", "kind": "far", "id": "test-1116", "state": "what are the best jeans in my size"}
+{"text": "answer the phone", "label": "out_of_scope", "kind": "far", "id": "test-1121", "state": "answer the phone"}
+{"text": "can you look at what the oldest age is someone can enlist in the army", "label": "out_of_scope", "kind": "far", "id": "test-1128", "state": "can you look at what the oldest age is someone can enlist in the army"}
+{"text": "tell me the steps as to how to begin a career as a journalist", "label": "out_of_scope", "kind": "far", "id": "test-1129", "state": "tell me the steps as to how to begin a career as a journalist"}
+{"text": "what's my boss' home address", "label": "out_of_scope", "kind": "far", "id": "test-1131", "state": "what's my boss' home address"}
+{"text": "does dhl deliver to my address", "label": "out_of_scope", "kind": "far", "id": "test-1132", "state": "does dhl deliver to my address"}
+{"text": "what was the original name of jesus in egyptian myth", "label": "out_of_scope", "kind": "far", "id": "test-1133", "state": "what was the original name of jesus in egyptian myth"}
+{"text": "give me information about the element carbon and its reactions with hydrogen", "label": "out_of_scope", "kind": "far", "id": "test-1135", "state": "give me information about the element carbon and its reactions with hydrogen"}
+{"text": "how do i make my android phone more secure", "label": "out_of_scope", "kind": "far", "id": "test-1142", "state": "how do i make my android phone more secure"}
+{"text": "what articles are written at the cnn site about the women's march", "label": "out_of_scope", "kind": "far", "id": "test-1149", "state": "what articles are written at the cnn site about the women's march"}
+{"text": "how can i repair a broken watch", "label": "out_of_scope", "kind": "far", "id": "test-1154", "state": "how can i repair a broken watch"}
+{"text": "can you find the answer to number 26 in this algebra two textbook", "label": "out_of_scope", "kind": "far", "id": "test-1158", "state": "can you find the answer to number 26 in this algebra two textbook"}
+{"text": "what time did my daughter get home from her date", "label": "out_of_scope", "kind": "far", "id": "test-1169", "state": "what time did my daughter get home from her date"}
+{"text": "i have too many credit cards, is there any way you can help me organize them", "label": "out_of_scope", "kind": "far", "id": "test-1172", "state": "i have too many credit cards, is there any way you can help me organize them"}
+{"text": "what are popular lifestyle magazines", "label": "out_of_scope", "kind": "far", "id": "test-1176", "state": "what are popular lifestyle magazines"}
+{"text": "can you explain a good risk strategy to me", "label": "out_of_scope", "kind": "far", "id": "test-1179", "state": "can you explain a good risk strategy to me"}
+{"text": "can you tell me how to multiply two fractions", "label": "out_of_scope", "kind": "far", "id": "test-1180", "state": "can you tell me how to multiply two fractions"}
+{"text": "what universities are nearby to me and highly rated", "label": "out_of_scope", "kind": "far", "id": "test-1186", "state": "what universities are nearby to me and highly rated"}
+{"text": "watch the fbi", "label": "out_of_scope", "kind": "far", "id": "test-1191", "state": "watch the fbi"}
+{"text": "i need you to order a new pair of eyeglasses for me", "label": "out_of_scope", "kind": "far", "id": "test-1195", "state": "i need you to order a new pair of eyeglasses for me"}
+{"text": "what year was the first airplane built in", "label": "out_of_scope", "kind": "far", "id": "test-1207", "state": "what year was the first airplane built in"}
+{"text": "send information on flood clean up to my phone", "label": "out_of_scope", "kind": "far", "id": "test-1210", "state": "send information on flood clean up to my phone"}
+{"text": "can you tell me the best time to visit downtown when driving", "label": "out_of_scope", "kind": "far", "id": "test-1222", "state": "can you tell me the best time to visit downtown when driving"}
+{"text": "find articles about the protests in parisi", "label": "out_of_scope", "kind": "far", "id": "test-1223", "state": "find articles about the protests in parisi"}
+{"text": "find out what gentlemen are wearing to weddings these days", "label": "out_of_scope", "kind": "far", "id": "test-1224", "state": "find out what gentlemen are wearing to weddings these days"}
+{"text": "can i set up mobile deposits", "label": "out_of_scope", "kind": "far", "id": "test-1230", "state": "can i set up mobile deposits"}
+{"text": "tell me about that kind of cameras", "label": "out_of_scope", "kind": "far", "id": "test-1241", "state": "tell me about that kind of cameras"}
+{"text": "has the school my kids go to been in the news for any reason", "label": "out_of_scope", "kind": "far", "id": "test-1249", "state": "has the school my kids go to been in the news for any reason"}
+{"text": "can you tell me the purpose of a safe deposit box", "label": "out_of_scope", "kind": "far", "id": "test-1252", "state": "can you tell me the purpose of a safe deposit box"}
+{"text": "please clean the car windows", "label": "out_of_scope", "kind": "far", "id": "test-1260", "state": "please clean the car windows"}
+{"text": "i would like to find a stylish suit for a party", "label": "out_of_scope", "kind": "far", "id": "test-1262", "state": "i would like to find a stylish suit for a party"}
+{"text": "compare prices of malt-o-meal to kelloggs", "label": "out_of_scope", "kind": "far", "id": "test-1266", "state": "compare prices of malt-o-meal to kelloggs"}
+{"text": "how many moons does mars have", "label": "out_of_scope", "kind": "far", "id": "test-1274", "state": "how many moons does mars have"}
+{"text": "what are the requirements of a lab technician", "label": "out_of_scope", "kind": "far", "id": "test-1277", "state": "what are the requirements of a lab technician"}
+{"text": "can you locate the television remote", "label": "out_of_scope", "kind": "far", "id": "test-1282", "state": "can you locate the television remote"}
+{"text": "what are my hours this week at work", "label": "out_of_scope", "kind": "far", "id": "test-1283", "state": "what are my hours this week at work"}
+{"text": "where can i have a black and white photo blown up to poster size", "label": "out_of_scope", "kind": "far", "id": "test-1298", "state": "where can i have a black and white photo blown up to poster size"}
+{"text": "open up internet browser", "label": "out_of_scope", "kind": "far", "id": "test-1301", "state": "open up internet browser"}
+{"text": "who has the longest hair ever", "label": "out_of_scope", "kind": "far", "id": "test-1308", "state": "who has the longest hair ever"}
+{"text": "forward the text i just got from henry to giselle", "label": "out_of_scope", "kind": "far", "id": "test-1312", "state": "forward the text i just got from henry to giselle"}
+{"text": "call up instructables website and find article on bike assembly", "label": "out_of_scope", "kind": "far", "id": "test-1313", "state": "call up instructables website and find article on bike assembly"}
+{"text": "i am looking for a suit for work", "label": "out_of_scope", "kind": "far", "id": "test-1315", "state": "i am looking for a suit for work"}
+{"text": "how much does it cost to get two jackets dry cleaned", "label": "out_of_scope", "kind": "far", "id": "test-1316", "state": "how much does it cost to get two jackets dry cleaned"}
+{"text": "find out how many miles the mississippi waterway runs", "label": "out_of_scope", "kind": "far", "id": "test-1319", "state": "find out how many miles the mississippi waterway runs"}
+{"text": "remind me of the address for my workplace please", "label": "out_of_scope", "kind": "far", "id": "test-1326", "state": "remind me of the address for my workplace please"}
+{"text": "search my contacts for the auto repair place", "label": "out_of_scope", "kind": "far", "id": "test-1330", "state": "search my contacts for the auto repair place"}
+{"text": "can you tell me who sells dixie paper plates", "label": "out_of_scope", "kind": "far", "id": "test-1336", "state": "can you tell me who sells dixie paper plates"}
+{"text": "fill out the paperwork for tonys new daycare center", "label": "out_of_scope", "kind": "far", "id": "test-1337", "state": "fill out the paperwork for tonys new daycare center"}
+{"text": "what is the fee for a cash advance", "label": "out_of_scope", "kind": "far", "id": "test-1342", "state": "what is the fee for a cash advance"}

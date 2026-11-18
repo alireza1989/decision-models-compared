@@ -1,0 +1,296 @@
+{"id": "fresh-001", "state": "close my savings account"}
+{"id": "fresh-002", "state": "switch my direct deposit to my other account"}
+{"id": "fresh-003", "state": "what credit cards do you offer"}
+{"id": "fresh-004", "state": "I moved, can you update my address"}
+{"id": "fresh-005", "state": "there's a charge on my checking account I definitely didn't make"}
+{"id": "fresh-006", "state": "can you pull up the newest charges on my rewards card"}
+{"id": "fresh-007", "state": "card declined at dinner, embarrassing, why"}
+{"id": "fresh-008", "state": "what's left in my account after yesterday's paycheck cleared"}
+{"id": "fresh-009", "state": "my savings account got blocked out of nowhere, can someone tell me why"}
+{"id": "fresh-010", "state": "please take care of the gas bill payment"}
+{"id": "fresh-011", "state": "how do i sign up for your travel rewards card"}
+{"id": "fresh-012", "state": {"customer_message": "Why is there a hold on it?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-013", "state": "put 50 bucks into my savings"}
+{"id": "fresh-014", "state": "how many reward points do I have"}
+{"id": "fresh-015", "state": "balance on acct ending 2281 pls"}
+{"id": "fresh-016", "state": "what do i need to open a business account"}
+{"id": "fresh-017", "state": "need my bank's routing number for a form"}
+{"id": "fresh-018", "state": "Can you list the recent purchases on my credit card?"}
+{"id": "fresh-019", "state": "Can you tell me my total credit line on my card?"}
+{"id": "fresh-020", "state": "need a different pin for my debit card"}
+{"id": "fresh-021", "state": "what are my most recent charges"}
+{"id": "fresh-022", "state": "can I get pre-approved for a mortgage"}
+{"id": "fresh-023", "state": "show me my last few transactions"}
+{"id": "fresh-024", "state": "Am I eligible for a credit limit increase?"}
+{"id": "fresh-025", "state": "please up my mastercard limit before my trip"}
+{"id": "fresh-026", "state": {"customer_message": "Pay it in full today.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-027", "state": "can i open a joint account online"}
+{"id": "fresh-028", "state": "transfer my paycheck amount over to the joint account"}
+{"id": "fresh-029", "state": "what's the minimum payment on my credit card"}
+{"id": "fresh-030", "state": "How do I activate the visa that came in the mail?"}
+{"id": "fresh-031", "state": "Can I get a second credit card with you guys?"}
+{"id": "fresh-032", "state": "why cant i use my bank account, it keeps saying blocked when i try to pay rent"}
+{"id": "fresh-033", "state": "I need to see recent charges on my card ending 4417"}
+{"id": "fresh-034", "state": "use my savings to pay the mastercard bill"}
+{"id": "fresh-035", "state": "why was I charged an annual fee on my credit card"}
+{"id": "fresh-036", "state": "can I deposit cash at any ATM"}
+{"id": "fresh-037", "state": "whats the minimum i have to pay on my electric bill"}
+{"id": "fresh-038", "state": "cancel my bank account please"}
+{"id": "fresh-039", "state": "how long does it take to get a replacement credit card"}
+{"id": "fresh-040", "state": "update my contact info please"}
+{"id": "fresh-041", "state": "Please order me more checks, I'm down to my last two."}
+{"id": "fresh-042", "state": "what does my credit card bill come to"}
+{"id": "fresh-043", "state": "what's the statement balance I owe on my amex"}
+{"id": "fresh-044", "state": "What routing number should I give the IRS for my refund?"}
+{"id": "fresh-045", "state": "i'm short this month, what's the lowest amount i can pay on the gas bill"}
+{"id": "fresh-046", "state": "Can you add up what I've spent at Amazon since January?"}
+{"id": "fresh-047", "state": "Please freeze my savings account right now, I left my debit card at a restaurant."}
+{"id": "fresh-048", "state": {"customer_message": "What's the minimum I need to pay?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-049", "state": "zelle my roommate $40"}
+{"id": "fresh-050", "state": "what were the last five charges on my visa"}
+{"id": "fresh-051", "state": "I need a new checkbook, can you send one"}
+{"id": "fresh-052", "state": "How do I open a checking account for my son?"}
+{"id": "fresh-053", "state": "did the rate on my CD account change this month"}
+{"id": "fresh-054", "state": "Tell me the minimum payment on my store card."}
+{"id": "fresh-055", "state": "how much is the annual fee for the travel card"}
+{"id": "fresh-056", "state": "Am I approved for the cash back card yet?"}
+{"id": "fresh-057", "state": "theres a weird charge from an online shop on my bank statement, i didnt buy anything"}
+{"id": "fresh-058", "state": "I'm trying to budget. How much have I spent on groceries in the past three months?"}
+{"id": "fresh-059", "state": "I lost my credit card, can I get a new one"}
+{"id": "fresh-060", "state": "routing # for my checking"}
+{"id": "fresh-061", "state": "how much is left on my mortgage"}
+{"id": "fresh-062", "state": "I want to apply for a credit card"}
+{"id": "fresh-063", "state": "I think someone has my login details. lock my checking account immediately please"}
+{"id": "fresh-064", "state": "min payment for my mastercard?"}
+{"id": "fresh-065", "state": "what's the deadline on my gas bill, don't want a late fee again"}
+{"id": "fresh-066", "state": "Please pay off my visa balance in full today."}
+{"id": "fresh-067", "state": "do you offer home equity loans"}
+{"id": "fresh-068", "state": {"customer_message": "Freeze it please.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-069", "state": "What's the expiration date on my amex?"}
+{"id": "fresh-070", "state": "Can I apply for a personal loan?"}
+{"id": "fresh-071", "state": "what's the annual fee on my credit card"}
+{"id": "fresh-072", "state": "what's the balance transfer fee on my visa"}
+{"id": "fresh-073", "state": "when is my credit card payment due"}
+{"id": "fresh-074", "state": "is my visa interest rate going up next month"}
+{"id": "fresh-075", "state": "will the annual fee on my card go up"}
+{"id": "fresh-076", "state": "my phone got stolen with my banking app on it, can you block access to my account now"}
+{"id": "fresh-077", "state": "check my cash back balance on my visa"}
+{"id": "fresh-078", "state": "how much did I spend on restaurants last month"}
+{"id": "fresh-079", "state": "smallest amount i can pay on my amex"}
+{"id": "fresh-080", "state": "can you give me the ABA number for my account"}
+{"id": "fresh-081", "state": {"customer_message": "What's the minimum I need to pay?", "account": {"type": "bill", "name": "Water bill, City Utilities"}}}
+{"id": "fresh-082", "state": "I always forget, what day is the electric bill due this month?"}
+{"id": "fresh-083", "state": "what's the APR on my credit card"}
+{"id": "fresh-084", "state": "is there a branch near the airport"}
+{"id": "fresh-085", "state": "Can you tell me the minimum payment for my internet bill"}
+{"id": "fresh-086", "state": "what's the exchange rate for euros today"}
+{"id": "fresh-087", "state": "how much do i owe on my credit card"}
+{"id": "fresh-088", "state": "where's the closest ATM"}
+{"id": "fresh-089", "state": "how much interest does my money market account pay"}
+{"id": "fresh-090", "state": {"customer_message": "Someone made a charge on this I didn't authorize.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-091", "state": "move money to my brother's checking account"}
+{"id": "fresh-092", "state": "can i split my direct deposit between two accounts"}
+{"id": "fresh-093", "state": "What's your overdraft fee?"}
+{"id": "fresh-094", "state": "how little can I pay on the cable bill and still be ok"}
+{"id": "fresh-095", "state": "my debit card got used in another country while I was home"}
+{"id": "fresh-096", "state": {"customer_message": "What's the rate on this account?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-097", "state": "Can you transfer $300 to my sister's account?"}
+{"id": "fresh-098", "state": "how do I apply for a student loan"}
+{"id": "fresh-099", "state": "my mastercard got denied twice today"}
+{"id": "fresh-100", "state": "remind me what the water bill came to"}
+{"id": "fresh-101", "state": "Can you check how much is sitting in my joint account with my wife?"}
+{"id": "fresh-102", "state": "my amex has a charge from a hotel I never stayed at"}
+{"id": "fresh-103", "state": "I'd like to see the last 10 transactions on my savings account."}
+{"id": "fresh-104", "state": {"customer_message": "Pay it in full today.", "account": {"type": "bill", "name": "Internet bill, Fibrelink"}}}
+{"id": "fresh-105", "state": "fraudulent purchases on my credit card, need to report them"}
+{"id": "fresh-106", "state": "is there a foreign transaction fee on my visa"}
+{"id": "fresh-107", "state": "Can you tell me the cash advance rate on my card?"}
+{"id": "fresh-108", "state": "is the interest rate on my checking still 0.5 percent"}
+{"id": "fresh-109", "state": "how high is the limit on my mastercard"}
+{"id": "fresh-110", "state": "I need to report fraud on my visa, someone bought a TV with it"}
+{"id": "fresh-111", "state": {"customer_message": "I want to change the PIN.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}}
+{"id": "fresh-112", "state": "move $200 from checking to savings"}
+{"id": "fresh-113", "state": "what's the lowest I can pay on my credit card bill without a late fee"}
+{"id": "fresh-114", "state": "What day is my credit card bill due this month?"}
+{"id": "fresh-115", "state": "What's the total I owe on my internet bill? Want to double check before I pay it."}
+{"id": "fresh-116", "state": "Can you tell me how much I owe on my store credit card?"}
+{"id": "fresh-117", "state": "Why is there a hold on my checking account? I deposited a check on Monday and now I can't touch any of it."}
+{"id": "fresh-118", "state": {"customer_message": "I want to change the PIN.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-119", "state": "I want to refinance my house"}
+{"id": "fresh-120", "state": "my credit card needs activating"}
+{"id": "fresh-121", "state": "can you mail me a paper statement"}
+{"id": "fresh-122", "state": "list recent activity on my account please"}
+{"id": "fresh-123", "state": "what credit score do I need for a loan"}
+{"id": "fresh-124", "state": {"customer_message": "List my last five purchases.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}}
+{"id": "fresh-125", "state": "send me my tax forms"}
+{"id": "fresh-126", "state": {"customer_message": "What's the rate on this account?", "account": {"type": "savings", "name": "High Yield Savings ending 9034"}}}
+{"id": "fresh-127", "state": "how do I set up direct deposit"}
+{"id": "fresh-128", "state": "I want to pay $300 toward my credit card bill"}
+{"id": "fresh-129", "state": "can i get a box of checks mailed to my house"}
+{"id": "fresh-130", "state": "Can you list everything that came out of my checking this week?"}
+{"id": "fresh-131", "state": "what's the interest rate on my store credit card"}
+{"id": "fresh-132", "state": "what interest am I earning on my savings"}
+{"id": "fresh-133", "state": "I need to send money to my mom in India"}
+{"id": "fresh-134", "state": {"customer_message": "Is this account blocked? Nothing is going through.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-135", "state": "tell me the APY on my savings"}
+{"id": "fresh-136", "state": "What's the due date on my visa bill?"}
+{"id": "fresh-137", "state": "What can I redeem my credit card points for?"}
+{"id": "fresh-138", "state": "How do I update my PIN, I keep forgetting the old one"}
+{"id": "fresh-139", "state": "whats the purchase apr on my mastercard"}
+{"id": "fresh-140", "state": "what did i put on my credit card yesterday"}
+{"id": "fresh-141", "state": "What's the current rate on my high yield savings account?"}
+{"id": "fresh-142", "state": "Can you send me a direct deposit form for my new job?"}
+{"id": "fresh-143", "state": "How do I go paperless for statements?"}
+{"id": "fresh-144", "state": "can you tell me the amount owed on my phone bill"}
+{"id": "fresh-145", "state": "i need to know if i have enough for rent, whats the current balance in my main account"}
+{"id": "fresh-146", "state": {"customer_message": "List my last five purchases.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-147", "state": "What's my credit card bill this month?"}
+{"id": "fresh-148", "state": "pay back my coworker $20 from my account"}
+{"id": "fresh-149", "state": "how big is my electricity bill this time, the heat was on all month"}
+{"id": "fresh-150", "state": "how do I get my amex limit bumped up"}
+{"id": "fresh-151", "state": "I want to open a savings account"}
+{"id": "fresh-152", "state": "pay my credit card bill from checking"}
+{"id": "fresh-153", "state": "did my credit card apr change"}
+{"id": "fresh-154", "state": "activate my new credit card"}
+{"id": "fresh-155", "state": "I'd like a higher limit on my visa please."}
+{"id": "fresh-156", "state": "when's the next payment due on my credit card"}
+{"id": "fresh-157", "state": "What's the smallest payment I can make on my phone bill this month without a penalty?"}
+{"id": "fresh-158", "state": "is my credit limit still $5,000"}
+{"id": "fresh-159", "state": "how much is the minimum on my discover bill"}
+{"id": "fresh-160", "state": "increase the limit on my credit card to 10k"}
+{"id": "fresh-161", "state": "request a credit line increase"}
+{"id": "fresh-162", "state": "need to change my mailing address before my statements go out"}
+{"id": "fresh-163", "state": "got a notice that my account is on hold pending review. what does that mean and why"}
+{"id": "fresh-164", "state": "do i pay a yearly fee for my amex"}
+{"id": "fresh-165", "state": "pay my electric bill from checking"}
+{"id": "fresh-166", "state": "how much do i still owe on my gas bill this month"}
+{"id": "fresh-167", "state": {"customer_message": "How much do I owe?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-168", "state": "total spent on coffee shops in october?"}
+{"id": "fresh-169", "state": "my credit card snapped in half"}
+{"id": "fresh-170", "state": "can you raise my credit limit"}
+{"id": "fresh-171", "state": "what do I owe for the cable bill"}
+{"id": "fresh-172", "state": "i want to change the pin on my account"}
+{"id": "fresh-173", "state": "why won't my credit card work"}
+{"id": "fresh-174", "state": "where do I find my 1099 for interest"}
+{"id": "fresh-175", "state": "make a payment on my amex"}
+{"id": "fresh-176", "state": "can I do a balance transfer to my credit card"}
+{"id": "fresh-177", "state": "can you pay the minimum on my credit card"}
+{"id": "fresh-178", "state": "can I add my credit card to apple pay"}
+{"id": "fresh-179", "state": "change pin to something new"}
+{"id": "fresh-180", "state": "what are the latest transactions on my amex"}
+{"id": "fresh-181", "state": "can my daughter get her own credit card on my account"}
+{"id": "fresh-182", "state": "can you link my savings for overdraft protection"}
+{"id": "fresh-183", "state": "total due on my mastercard bill?"}
+{"id": "fresh-184", "state": "what went in and out of my account yesterday"}
+{"id": "fresh-185", "state": "are you open on saturdays"}
+{"id": "fresh-186", "state": "is my mastercard payment due this week"}
+{"id": "fresh-187", "state": "whats the spending limit on my amex"}
+{"id": "fresh-188", "state": "list my credit card activity from the past few days"}
+{"id": "fresh-189", "state": "how long does it take to set up direct deposit"}
+{"id": "fresh-190", "state": "wire $2,000 to an account in Mexico"}
+{"id": "fresh-191", "state": "send $75 from my checking to my savings please"}
+{"id": "fresh-192", "state": "Do my amex points expire?"}
+{"id": "fresh-193", "state": "someone took money out of my account without asking"}
+{"id": "fresh-194", "state": "is my mastercard about to expire"}
+{"id": "fresh-195", "state": "How much credit do I have available on my visa?"}
+{"id": "fresh-196", "state": "how much more can i charge before i hit my limit"}
+{"id": "fresh-197", "state": "why is my credit card being declined when I have plenty of credit left"}
+{"id": "fresh-198", "state": "Show the most recent transactions on my discover card."}
+{"id": "fresh-199", "state": "find me an atm that doesn't charge fees"}
+{"id": "fresh-200", "state": "running out of checks, send more"}
+{"id": "fresh-201", "state": {"customer_message": "How much do I owe?", "account": {"type": "bill", "name": "Electricity bill, City Power"}}}
+{"id": "fresh-202", "state": "my mastercard chip stopped working"}
+{"id": "fresh-203", "state": "how much money went to uber this month"}
+{"id": "fresh-204", "state": "What happens to my money if I close my account?"}
+{"id": "fresh-205", "state": "I see three charges on my card from a gas station two states away"}
+{"id": "fresh-206", "state": "change the due date on my credit card"}
+{"id": "fresh-207", "state": "what's my routing number"}
+{"id": "fresh-208", "state": "Is there a problem with my credit card? It was declined at the pharmacy."}
+{"id": "fresh-209", "state": "Please flag the $39.99 charge from yesterday as fraud"}
+{"id": "fresh-210", "state": "someone used my mastercard number online without permission"}
+{"id": "fresh-211", "state": "Do you charge fees for using my debit card abroad?"}
+{"id": "fresh-212", "state": "I'd like to pay my internet bill now, the full amount"}
+{"id": "fresh-213", "state": "how much money is in my checking right now"}
+{"id": "fresh-214", "state": "order checks for my business checking account"}
+{"id": "fresh-215", "state": "can you lower the interest on my credit card"}
+{"id": "fresh-216", "state": "How much is the minimum due on my visa this month?"}
+{"id": "fresh-217", "state": "I need the due date for my discover bill"}
+{"id": "fresh-218", "state": "Please report the $89 charge on my credit card as fraud, I've never heard of that merchant."}
+{"id": "fresh-219", "state": "freeze my account asap"}
+{"id": "fresh-220", "state": {"customer_message": "Is this account blocked? Nothing is going through.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}}
+{"id": "fresh-221", "state": "Someone is making charges on my credit card. I still have the card with me."}
+{"id": "fresh-222", "state": "use my savings to pay off the phone bill"}
+{"id": "fresh-223", "state": "how do i shut down my account"}
+{"id": "fresh-224", "state": {"customer_message": "Please lock it right now, I think someone has my details.", "account": {"type": "savings", "name": "High Yield Savings ending 9034"}}}
+{"id": "fresh-225", "state": "I think I lost my credit card at the airport"}
+{"id": "fresh-226", "state": "reset my pin please"}
+{"id": "fresh-227", "state": "minimum due on my water bill?"}
+{"id": "fresh-228", "state": "can i use my rewards to pay for a hotel"}
+{"id": "fresh-229", "state": {"customer_message": "Please lock it right now, I think someone has my details.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-230", "state": "What time does the branch on Main Street close?"}
+{"id": "fresh-231", "state": "how many miles have i earned on my travel card"}
+{"id": "fresh-232", "state": "send the payment for my cable bill this afternoon"}
+{"id": "fresh-233", "state": "My employer needs the routing number for direct deposit, what is it?"}
+{"id": "fresh-234", "state": "what's my credit limit"}
+{"id": "fresh-235", "state": "I need a replacement amex, I left mine in a taxi"}
+{"id": "fresh-236", "state": "can I order foreign currency before my trip"}
+{"id": "fresh-237", "state": "I need a copy of last month's statement"}
+{"id": "fresh-238", "state": "Can you transfer five hundred dollars from my savings into my checking account tonight?"}
+{"id": "fresh-239", "state": "need the due date for my car insurance bill"}
+{"id": "fresh-240", "state": {"customer_message": "What's my interest rate?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-241", "state": "I want my paycheck deposited straight into savings, how do I set that up"}
+{"id": "fresh-242", "state": "I want to shift some money between my two accounts, $1,000 from savings to checking"}
+{"id": "fresh-243", "state": "send $50 to my friend Jake"}
+{"id": "fresh-244", "state": "My visa is cracked and won't swipe. Can you send a replacement?"}
+{"id": "fresh-245", "state": {"customer_message": "Someone made a charge on this I didn't authorize.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}}
+{"id": "fresh-246", "state": "sign me up for a new checking account"}
+{"id": "fresh-247", "state": "Can you put a lock on my bank account until I get back from vacation?"}
+{"id": "fresh-248", "state": "how much cash back did i earn this month"}
+{"id": "fresh-249", "state": "my amex was rejected at the store even though I paid it off"}
+{"id": "fresh-250", "state": "stop all activity on my checking account right away, something is wrong"}
+{"id": "fresh-251", "state": "transfer my credit card points to an airline"}
+{"id": "fresh-252", "state": "opt me out of overdraft"}
+{"id": "fresh-253", "state": "I'd like to close my checking account and move everything elsewhere."}
+{"id": "fresh-254", "state": {"customer_message": "What's my interest rate?", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}}
+{"id": "fresh-255", "state": "How do I update my email for account alerts?"}
+{"id": "fresh-256", "state": "When do I have to pay the internet bill by?"}
+{"id": "fresh-257", "state": "I want to report a fraudulent transaction of $214 from a store I've never been to."}
+{"id": "fresh-258", "state": "turn off overdraft protection"}
+{"id": "fresh-259", "state": "send me a new credit card, mine expired"}
+{"id": "fresh-260", "state": "close my credit card account"}
+{"id": "fresh-261", "state": "What interest rate am I paying on my credit card balance?"}
+{"id": "fresh-262", "state": "Can I open a CD with you?"}
+{"id": "fresh-263", "state": "My visa keeps getting declined online. What's wrong with it?"}
+{"id": "fresh-264", "state": "add my new last name to my account, I just got married"}
+{"id": "fresh-265", "state": "what's the rate on a car loan"}
+{"id": "fresh-266", "state": "I'm traveling for work and suddenly my account shows as frozen. I didn't do that. What's going on with it?"}
+{"id": "fresh-267", "state": "How do I get new checks? I just want the same design as before."}
+{"id": "fresh-268", "state": "is my water bill due before or after the 15th"}
+{"id": "fresh-269", "state": "report a fake charge on my capital one card"}
+{"id": "fresh-270", "state": "Before I go grocery shopping can you tell me what I've got in my savings account?"}
+{"id": "fresh-271", "state": "change the phone number on my account"}
+{"id": "fresh-272", "state": "what's the max I can put on my credit card"}
+{"id": "fresh-273", "state": "how much does an international wire cost"}
+{"id": "fresh-274", "state": "when does my credit card expire"}
+{"id": "fresh-275", "state": "close the joint account, we're separating"}
+{"id": "fresh-276", "state": "check the status of my credit card application"}
+{"id": "fresh-277", "state": "what did i spend on gas this year"}
+{"id": "fresh-278", "state": "how does overdraft coverage work"}
+{"id": "fresh-279", "state": "Can you waive the annual fee on my visa this year?"}
+{"id": "fresh-280", "state": "I'd like to upgrade to a premium credit card."}
+{"id": "fresh-281", "state": "there's a charge on my credit card I didn't make"}
+{"id": "fresh-282", "state": "my credit card has a hold on it, why?"}
+{"id": "fresh-283", "state": "why did my credit card get declined at the gas station"}
+{"id": "fresh-284", "state": "how much interest does my amex charge"}
+{"id": "fresh-285", "state": "Can I set a new PIN for my checking account? I think someone saw me type it."}
+{"id": "fresh-286", "state": "hey so I tried to log in this morning and it says my account is restricted?? what happened"}
+{"id": "fresh-287", "state": "how much is my visa bill"}
+{"id": "fresh-288", "state": {"customer_message": "When is the payment due?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}}
+{"id": "fresh-289", "state": {"customer_message": "Why is there a hold on it?", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}}
+{"id": "fresh-290", "state": "Can you pay the water bill today so it's not late?"}
+{"id": "fresh-291", "state": "send money to someone at another bank"}
+{"id": "fresh-292", "state": "show me everything I charged to my mastercard this week"}
+{"id": "fresh-293", "state": "when's my phone bill due"}
+{"id": "fresh-294", "state": {"customer_message": "Freeze it please.", "account": {"type": "savings", "name": "High Yield Savings ending 9034"}}}
+{"id": "fresh-295", "state": {"customer_message": "When is the payment due?", "account": {"type": "bill", "name": "Phone bill, Northwind Mobile"}}}
+{"id": "fresh-296", "state": "when do i have to pay my amex by"}

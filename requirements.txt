@@ -1,0 +1,4 @@
+# The API steps (dmc.run, dmc.latency) use the Python standard library only.
+# The analysis (dmc.evaluate, dmc.figures) needs:
+numpy>=1.26
+matplotlib>=3.8
