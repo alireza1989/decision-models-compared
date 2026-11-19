@@ -317,6 +317,27 @@ def w2c_section(models: list[str]) -> dict:
     return out
 
 
+# Post hoc, found because every model disagreed with the label: six fresh messages that ask to freeze,
+# lock, change the PIN of, or explain a hold or block on the attached or named credit card. The rules make
+# them out_of_scope (a credit card is not a bank account), but freeze_account, pin_change and account_blocked
+# are defensible readings. Reported as a sensitivity check only; the primary results keep every label.
+CONTESTED = ["fresh-012", "fresh-068", "fresh-118", "fresh-134", "fresh-229", "fresh-282"]
+
+
+def posthoc_section(models: list[str]) -> dict:
+    out = {"contested_ids": CONTESTED}
+    for cond in CONDITIONS:
+        per = {}
+        for m in models + [SONNET]:
+            rows = rows_of("r1", m, f"{cond}.fresh")
+            if rows:
+                kept = [r for r in rows if r["id"] not in CONTESTED]
+                per[m] = {"all": metrics(rows), "without_contested": metrics(kept),
+                          "contested_right": sum(r["pred"] == r["label"] for r in rows if r["id"] in CONTESTED)}
+        out[cond] = per
+    return out
+
+
 def latency_section() -> dict:
     rows = read_jsonl(RAW / "latency" / "latency.jsonl")
     out = {}
@@ -388,6 +409,7 @@ def main() -> None:
     routing = routing_section(models)
     summary = {"routing": routing, "stress": stress_section(models), "repeats": repeats_section(models),
                "w2c": w2c_section(models), "latency": latency_section(), "cost": cost_section(models, routing),
+               "posthoc_contested": posthoc_section(models),
                "spent_usd": sum(r.get("cost") or 0.0 for r in read_jsonl(RESULTS / "cost_ledger.jsonl"))}
     jev13, jev14 = rows_of("r1", "typesafe/jev-1.13", "base.test"), rows_of("r1", JEV, "base.test")
     if jev13 and jev14:

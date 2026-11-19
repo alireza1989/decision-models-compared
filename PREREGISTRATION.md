@@ -239,3 +239,11 @@ spending cap; anything not run is reported as not run.
   our request rate. A rate limit says nothing about the model, so these are retried like a dropped
   connection. Refusals (OpenAI's `HTTP 502 refused to answer`, 34 in all) are the model's own
   answer and still count as escalations.
+- **November 18, during the analysis: the threshold rule's fallback.** Section 6 defines the threshold
+  as the lowest multiple of 0.01 that keeps wrong automatic actions at or under 2% on validation. The
+  code checked 0.00 to 0.99 and, if none passed, fell back to 1.00 without checking it, so a model that
+  gives wrong answers a probability of exactly 1.0 could still automate them. The code now checks
+  1.00 as well and, if nothing passes, sets a threshold no probability reaches, so the gate never
+  automates. This matches the rule as written and changed only tool-call gate results. Separately,
+  `dmc/evaluate.py` reports one post hoc sensitivity check, the fresh-set results without six
+  contested credit card messages, labelled as post hoc; the primary results keep every label.
