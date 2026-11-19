@@ -135,10 +135,15 @@ def read_jsonl(path: Path) -> list[dict]:
     return out
 
 
-def is_network_error(row: dict) -> bool:
-    """True when the request never got an HTTP answer (our connection failed), as opposed to a provider error."""
+def is_transient_error(row: dict) -> bool:
+    """True when a request failed for reasons that say nothing about the model: no HTTP answer at all
+    (our connection failed) or a rate limit (HTTP 429) that outlasted the retries. These are retried on
+    resume. Every other error, such as a refusal, stays and counts as an escalation."""
     err = row.get("error") or ""
-    return bool(err) and not err.startswith(("HTTP ", "unreadable answer"))
+    return bool(err) and (err.startswith("HTTP 429") or not err.startswith(("HTTP ", "unreadable answer")))
+
+
+is_network_error = is_transient_error  # older name, kept for scripts that use it
 
 
 def latest(rows: list[dict]) -> list[dict]:
@@ -246,9 +251,16 @@ def policy_outcome(rows: list[dict], threshold: float, act_labels=None) -> dict:
     }
 
 
+NEVER = 1.01  # a threshold no probability reaches: the gate never automates
+
+
 def pick_threshold(rows: list[dict], max_wrong: float = 0.02, act_labels=None) -> float:
-    """Lowest threshold (in steps of 0.01) whose wrong-automation rate stays at or under max_wrong."""
-    for t in [i / 100 for i in range(0, 100)]:
+    """Lowest threshold (a multiple of 0.01, from 0 to 1) whose wrong-automation rate stays at or under max_wrong.
+
+    If none does, returns NEVER: that model's gate can't keep the promise on validation, so it never
+    automates. (Before November 18 this fell back to 1.0 without checking it, which let models that
+    give wrong answers a probability of exactly 1.0 automate them.)"""
+    for t in [i / 100 for i in range(0, 101)]:
         if policy_outcome(rows, t, act_labels)["wrong_auto"] <= max_wrong:
             return t
-    return 1.0
+    return NEVER

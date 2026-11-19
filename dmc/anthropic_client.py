@@ -22,6 +22,9 @@ ROUTING_SYSTEM = "You are the router for a banking support agent. You decide whi
 W2C_SYSTEM = "You decide the next step of an AI assistant that can call tools."
 # List prices per million input and output tokens, prompts under 100,000 tokens (Anthropic's pricing page, Nov 2026).
 PRICE_PER_M = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00)}
+# How each model turns thinking off. Sonnet 5.5 refuses {"type": "disabled"} and asks for "between_tools",
+# which means no thinking before the answer; with no tools in the request, it never thinks at all.
+THINKING_OFF = {"claude-sonnet-5-5": {"type": "between_tools"}}
 
 
 def routing_prompt(state, criteria: dict) -> str:
@@ -72,7 +75,7 @@ class AnthropicClient:
                   "properties": {qname: {"type": "string", "enum": labels}, "confidence": {"type": "integer"}}}
         body = {"model": model, "max_tokens": 200, "system": system,
                 "messages": [{"role": "user", "content": prompt}],
-                "thinking": {"type": "disabled"},
+                "thinking": THINKING_OFF.get(model, {"type": "disabled"}),
                 "output_config": {"format": {"type": "json_schema", "schema": schema}}}
         last = None
         for attempt in range(attempts):

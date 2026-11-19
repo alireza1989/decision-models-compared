@@ -17,7 +17,7 @@ from collections import Counter
 
 import numpy as np
 
-from dmc.common import (CONDITIONS, OOS, RESULTS, W2C_LABELS, brier_item, ece, latest, nll, pick_threshold,
+from dmc.common import (CONDITIONS, OOS, RESULTS, W2C_LABELS, brier_item, ece, latest, load, nll, pick_threshold,
                         policy_outcome, read_jsonl, top_prob, validation_split)
 
 RAW = RESULTS / "raw"
@@ -101,12 +101,24 @@ def brier_compare(a: list[dict], b: list[dict], seed: int = 0) -> dict:
     return {"n": int(len(d)), "diff": float(d.mean()), "ci": [float(np.quantile(boots, 0.025)), float(np.quantile(boots, 0.975))], "p": float(p)}
 
 
-def boot_ci(rows: list[dict], fn, seed: int = 0) -> list[float]:
+def ece_boot_ci(rows: list[dict], bins: int = 10, reps: int = 1000, seed: int = 0) -> list[float]:
+    """Bootstrap interval for ECE (same binning as common.ece), vectorized over resamples."""
+    pc = [(top_prob(r), float(r["pred"] == r["label"])) for r in rows if top_prob(r) is not None]
+    if not pc:
+        return [None, None]
+    p, c = np.array([x for x, _ in pc]), np.array([y for _, y in pc])
     rng = np.random.default_rng(seed)
-    n = len(rows)
-    vals = [fn([rows[i] for i in rng.integers(0, n, n)]) for _ in range(500)]
-    vals = [v for v in vals if v is not None]
-    return [float(np.quantile(vals, 0.025)), float(np.quantile(vals, 0.975))] if vals else [None, None]
+    idx = rng.integers(0, len(p), size=(reps, len(p)))
+    P, C = p[idx], c[idx]
+    total = np.zeros(reps)
+    for b in range(bins):
+        lo, hi = b / bins, (b + 1) / bins
+        mask = (P > lo) & (P <= hi)
+        if b == 0:
+            mask |= P == 0
+        total += np.abs((P * mask).sum(1) - (C * mask).sum(1))
+    vals = total / len(p)
+    return [float(np.quantile(vals, 0.025)), float(np.quantile(vals, 0.975))]
 
 
 # ---- per-set metrics --------------------------------------------------------------------------
@@ -134,7 +146,7 @@ def metrics(rows: list[dict], with_ece_ci: bool = False) -> dict:
     if out["brier"] is not None:
         out["decision_score"] = 50 * (1 + out["accuracy"] - out["brier"])
     if with_ece_ci and briers:
-        out["ece_ci"] = boot_ci(rows, lambda rs: ece(rs) if any(top_prob(r) is not None for r in rs) else None)
+        out["ece_ci"] = ece_boot_ci(rows)
     return out
 
 
@@ -176,6 +188,11 @@ def routing_section(models: list[str]) -> dict:
         out["test"][cond] = {m: {s: metrics(subset(r, s), with_ece_ci=s == "in_near") for s in SUBSETS} for m, r in test.items() if r}
         out["fresh"][cond] = {m: {s: metrics(subset(r, s), with_ece_ci=s == "in_near") for s in ("all", "in", "near")}
                               for m, r in {**fresh, SONNET: sonnet_fresh}.items() if r}
+        cat_of = {x["id"]: x["category"] for x in load("fresh")}
+        for m, r in {**fresh, SONNET: sonnet_fresh}.items():
+            if r:
+                cats = sorted({cat_of[x["id"]] for x in r})
+                out["fresh"][cond][m]["by_category"] = {c: metrics([x for x in r if cat_of[x["id"]] == c]) for c in cats}
         out["tie_groups"][cond] = {"test_in_near": tie_groups(test, "in_near"), "fresh": tie_groups(fresh, "all")}
         th = {}
         for m in models:

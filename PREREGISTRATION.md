@@ -226,3 +226,16 @@ spending cap; anything not run is reported as not run.
   reported next to the other models but kept out of the tie groups, the comparison families and
   the hypotheses, whose counts (7 of 13) stay as written. The fresh set now runs only once
   `labels_final.jsonl` is committed and unchanged (`run_all.sh` checks this).
+- **November 18, after `labels-v1`.** No person checked the fresh-set labels. A 40-message blind
+  spot check by me was set up and not done. The fresh-set results are reported with that caveat;
+  claims that need human labels rest on the CLINC150 sets, whose labels are human.
+- **November 18, after `labels-v1`: Sonnet's first run and rate limits.** Every Sonnet 5.5 request
+  in the first run was refused (`HTTP 400`): that model turns thinking off with
+  `"thinking": {"type": "between_tools"}` and refuses `"disabled"`. With no tools in the request it
+  doesn't think before answering, so the setting means the same as Haiku's. The refused rows hold no
+  model output and were moved out of `results/raw/`. `dmc/run.py` now sends one small preflight
+  request per model and stops on any 4xx other than a rate limit. Separately, 9 of about 190,000
+  requests (Microsoft Decision 1.1 and Perplexity) still got `HTTP 429` after 4 attempts because of
+  our request rate. A rate limit says nothing about the model, so these are retried like a dropped
+  connection. Refusals (OpenAI's `HTTP 502 refused to answer`, 34 in all) are the model's own
+  answer and still count as escalations.

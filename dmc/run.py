@@ -132,6 +132,15 @@ def main() -> None:
     if not todo:
         print("done")
         return
+    # Preflight: one tiny request per model that still has work. A 4xx here (other than a rate limit)
+    # is a setup problem, so stop before recording anything.
+    probe = {"user_message": "hello", "available_tools": []} if task == "w2c" else "what is my balance"
+    for m in models:
+        if all(r["id"] in done[m] for r in rows):
+            continue
+        _, _, err, _ = client.decide(m, probe, q)
+        if err and err.startswith("HTTP 4") and not err.startswith(("HTTP 408", "HTTP 409", "HTTP 425", "HTTP 429")):
+            raise SystemExit(f"{m}: preflight failed: {err[:300]}\nStopped without recording anything.")
 
     def work(model, row):
         rec = one(client, model, row, qname, q, back, labels, fallback)
