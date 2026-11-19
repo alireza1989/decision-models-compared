@@ -8,6 +8,5 @@ data/*.json
 !data/openrouter_decision_models_*.json
 # When2Call's full test file is downloaded and hash-checked by data/when2call/build_sample.py
 data/when2call/when2call_test_mcq.jsonl
-# Withheld until the blind labelling pass is done (see PREREGISTRATION.md, section 4)
-data/fresh/fresh_set.jsonl
-data/fresh/build_fresh_set.py
+# Results from a run that failed on setup (e.g. a rejected key); kept out of git
+results/_discarded*/

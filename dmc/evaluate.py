@@ -17,7 +17,7 @@ from collections import Counter
 
 import numpy as np
 
-from dmc.common import (CONDITIONS, OOS, RESULTS, W2C_LABELS, brier_item, ece, nll, pick_threshold,
+from dmc.common import (CONDITIONS, OOS, RESULTS, W2C_LABELS, brier_item, ece, latest, nll, pick_threshold,
                         policy_outcome, read_jsonl, top_prob, validation_split)
 
 RAW = RESULTS / "raw"
@@ -26,6 +26,7 @@ ALPHA = 0.05
 B = 2000
 JEV = "typesafe/jev-1.14"
 HAIKU = "claude-haiku-5-5"
+SONNET = "claude-sonnet-5-5"  # exploratory, fresh set only: reported, but outside tie groups, families and hypotheses
 
 
 def model_ids() -> list[str]:
@@ -35,11 +36,11 @@ def model_ids() -> list[str]:
 
 def names() -> dict:
     lineup = json.load(open("config/lineup.json"))
-    return {**{m["id"]: m["name"] for m in lineup["models"]}, HAIKU: "Claude Haiku 5.5"}
+    return {**{m["id"]: m["name"] for m in lineup["models"]}, HAIKU: "Claude Haiku 5.5", SONNET: "Claude Sonnet 5.5 (exploratory)"}
 
 
 def rows_of(run: str, model: str, tag: str) -> list[dict]:
-    return read_jsonl(RAW / run / f"{model.replace('/', '__')}.{tag}.jsonl")
+    return latest(read_jsonl(RAW / run / f"{model.replace('/', '__')}.{tag}.jsonl"))
 
 
 # ---- statistics -------------------------------------------------------------------------------
@@ -170,10 +171,11 @@ def routing_section(models: list[str]) -> dict:
     for cond in CONDITIONS:
         test = {m: rows_of("r1", m, f"{cond}.test") for m in models}
         fresh = {m: rows_of("r1", m, f"{cond}.fresh") for m in models}
+        sonnet_fresh = rows_of("r1", SONNET, f"{cond}.fresh")
         val = {m: rows_of("r1", m, f"{cond}.{validation_split(cond)}") for m in models}
         out["test"][cond] = {m: {s: metrics(subset(r, s), with_ece_ci=s == "in_near") for s in SUBSETS} for m, r in test.items() if r}
         out["fresh"][cond] = {m: {s: metrics(subset(r, s), with_ece_ci=s == "in_near") for s in ("all", "in", "near")}
-                              for m, r in fresh.items() if r}
+                              for m, r in {**fresh, SONNET: sonnet_fresh}.items() if r}
         out["tie_groups"][cond] = {"test_in_near": tie_groups(test, "in_near"), "fresh": tie_groups(fresh, "all")}
         th = {}
         for m in models:

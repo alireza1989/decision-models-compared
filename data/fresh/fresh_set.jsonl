@@ -1,0 +1,296 @@
+{"id": "fresh-001", "category": "near_bank", "subcategory": "close_account", "state": "close my savings account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-002", "category": "near_bank", "subcategory": "direct_deposit", "state": "switch my direct deposit to my other account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-003", "category": "near_card", "subcategory": "application", "state": "what credit cards do you offer", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-004", "category": "near_bank", "subcategory": "contact_details", "state": "I moved, can you update my address", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-005", "category": "in_messy", "subcategory": "report_fraud", "state": "there's a charge on my checking account I definitely didn't make", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-006", "category": "in_card", "subcategory": "transactions", "state": "can you pull up the newest charges on my rewards card", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-007", "category": "near_card", "subcategory": "declined", "state": "card declined at dinner, embarrassing, why", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-008", "category": "in_messy", "subcategory": "balance", "state": "what's left in my account after yesterday's paycheck cleared", "proposed_label": "balance", "kind": "in"}
+{"id": "fresh-009", "category": "in_messy", "subcategory": "account_blocked", "state": "my savings account got blocked out of nowhere, can someone tell me why", "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-010", "category": "in_messy", "subcategory": "pay_bill", "state": "please take care of the gas bill payment", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-011", "category": "near_card", "subcategory": "application", "state": "how do i sign up for your travel rewards card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-012", "category": "context", "subcategory": "pair03_flip", "pair": 3, "state": {"customer_message": "Why is there a hold on it?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-013", "category": "in_messy", "subcategory": "transfer", "state": "put 50 bucks into my savings", "proposed_label": "transfer", "kind": "in"}
+{"id": "fresh-014", "category": "near_card", "subcategory": "rewards", "state": "how many reward points do I have", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-015", "category": "in_messy", "subcategory": "balance", "state": "balance on acct ending 2281 pls", "proposed_label": "balance", "kind": "in"}
+{"id": "fresh-016", "category": "near_bank", "subcategory": "open_account", "state": "what do i need to open a business account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-017", "category": "in_messy", "subcategory": "routing", "state": "need my bank's routing number for a form", "proposed_label": "routing", "kind": "in"}
+{"id": "fresh-018", "category": "in_card", "subcategory": "transactions", "state": "Can you list the recent purchases on my credit card?", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-019", "category": "near_card", "subcategory": "limit", "state": "Can you tell me my total credit line on my card?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-020", "category": "in_messy", "subcategory": "pin_change", "state": "need a different pin for my debit card", "proposed_label": "pin_change", "kind": "in"}
+{"id": "fresh-021", "category": "in_messy", "subcategory": "transactions", "state": "what are my most recent charges", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-022", "category": "near_bank", "subcategory": "loans", "state": "can I get pre-approved for a mortgage", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-023", "category": "in_messy", "subcategory": "transactions", "state": "show me my last few transactions", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-024", "category": "near_card", "subcategory": "limit_increase", "state": "Am I eligible for a credit limit increase?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-025", "category": "near_card", "subcategory": "limit_increase", "state": "please up my mastercard limit before my trip", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-026", "category": "context", "subcategory": "pair12_control", "pair": 12, "state": {"customer_message": "Pay it in full today.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-027", "category": "near_bank", "subcategory": "open_account", "state": "can i open a joint account online", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-028", "category": "in_messy", "subcategory": "transfer", "state": "transfer my paycheck amount over to the joint account", "proposed_label": "transfer", "kind": "in"}
+{"id": "fresh-029", "category": "in_card", "subcategory": "min_payment", "state": "what's the minimum payment on my credit card", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-030", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "How do I activate the visa that came in the mail?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-031", "category": "near_card", "subcategory": "application", "state": "Can I get a second credit card with you guys?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-032", "category": "in_messy", "subcategory": "account_blocked", "state": "why cant i use my bank account, it keeps saying blocked when i try to pay rent", "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-033", "category": "in_card", "subcategory": "transactions", "state": "I need to see recent charges on my card ending 4417", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-034", "category": "in_card", "subcategory": "pay_bill", "state": "use my savings to pay the mastercard bill", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-035", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "why was I charged an annual fee on my credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-036", "category": "near_bank", "subcategory": "branch_atm", "state": "can I deposit cash at any ATM", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-037", "category": "in_messy", "subcategory": "min_payment", "state": "whats the minimum i have to pay on my electric bill", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-038", "category": "near_bank", "subcategory": "close_account", "state": "cancel my bank account please", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-039", "category": "near_card", "subcategory": "replacement", "state": "how long does it take to get a replacement credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-040", "category": "near_bank", "subcategory": "contact_details", "state": "update my contact info please", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-041", "category": "in_messy", "subcategory": "order_checks", "state": "Please order me more checks, I'm down to my last two.", "proposed_label": "order_checks", "kind": "in"}
+{"id": "fresh-042", "category": "in_card", "subcategory": "bill_balance", "state": "what does my credit card bill come to", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-043", "category": "in_card", "subcategory": "bill_balance", "state": "what's the statement balance I owe on my amex", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-044", "category": "in_messy", "subcategory": "routing", "state": "What routing number should I give the IRS for my refund?", "proposed_label": "routing", "kind": "in"}
+{"id": "fresh-045", "category": "in_messy", "subcategory": "min_payment", "state": "i'm short this month, what's the lowest amount i can pay on the gas bill", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-046", "category": "in_messy", "subcategory": "spending_history", "state": "Can you add up what I've spent at Amazon since January?", "proposed_label": "spending_history", "kind": "in"}
+{"id": "fresh-047", "category": "in_messy", "subcategory": "freeze_account", "state": "Please freeze my savings account right now, I left my debit card at a restaurant.", "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-048", "category": "context", "subcategory": "pair11_control", "pair": 11, "state": {"customer_message": "What's the minimum I need to pay?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-049", "category": "near_bank", "subcategory": "pay_another_person", "state": "zelle my roommate $40", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-050", "category": "in_card", "subcategory": "transactions", "state": "what were the last five charges on my visa", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-051", "category": "in_messy", "subcategory": "order_checks", "state": "I need a new checkbook, can you send one", "proposed_label": "order_checks", "kind": "in"}
+{"id": "fresh-052", "category": "near_bank", "subcategory": "open_account", "state": "How do I open a checking account for my son?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-053", "category": "in_messy", "subcategory": "interest_rate", "state": "did the rate on my CD account change this month", "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-054", "category": "in_card", "subcategory": "min_payment", "state": "Tell me the minimum payment on my store card.", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-055", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "how much is the annual fee for the travel card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-056", "category": "near_card", "subcategory": "application", "state": "Am I approved for the cash back card yet?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-057", "category": "in_messy", "subcategory": "report_fraud", "state": "theres a weird charge from an online shop on my bank statement, i didnt buy anything", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-058", "category": "in_messy", "subcategory": "spending_history", "state": "I'm trying to budget. How much have I spent on groceries in the past three months?", "proposed_label": "spending_history", "kind": "in"}
+{"id": "fresh-059", "category": "near_card", "subcategory": "replacement", "state": "I lost my credit card, can I get a new one", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-060", "category": "in_messy", "subcategory": "routing", "state": "routing # for my checking", "proposed_label": "routing", "kind": "in"}
+{"id": "fresh-061", "category": "near_bank", "subcategory": "loans", "state": "how much is left on my mortgage", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-062", "category": "near_card", "subcategory": "application", "state": "I want to apply for a credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-063", "category": "in_messy", "subcategory": "freeze_account", "state": "I think someone has my login details. lock my checking account immediately please", "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-064", "category": "in_card", "subcategory": "min_payment", "state": "min payment for my mastercard?", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-065", "category": "in_messy", "subcategory": "bill_due", "state": "what's the deadline on my gas bill, don't want a late fee again", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-066", "category": "in_card", "subcategory": "pay_bill", "state": "Please pay off my visa balance in full today.", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-067", "category": "near_bank", "subcategory": "loans", "state": "do you offer home equity loans", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-068", "category": "context", "subcategory": "pair05_flip", "pair": 5, "state": {"customer_message": "Freeze it please.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-069", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "What's the expiration date on my amex?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-070", "category": "near_bank", "subcategory": "loans", "state": "Can I apply for a personal loan?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-071", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "what's the annual fee on my credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-072", "category": "near_card", "subcategory": "other_card", "state": "what's the balance transfer fee on my visa", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-073", "category": "in_card", "subcategory": "bill_due", "state": "when is my credit card payment due", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-074", "category": "near_card", "subcategory": "apr", "state": "is my visa interest rate going up next month", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-075", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "will the annual fee on my card go up", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-076", "category": "in_messy", "subcategory": "freeze_account", "state": "my phone got stolen with my banking app on it, can you block access to my account now", "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-077", "category": "near_card", "subcategory": "rewards", "state": "check my cash back balance on my visa", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-078", "category": "in_messy", "subcategory": "spending_history", "state": "how much did I spend on restaurants last month", "proposed_label": "spending_history", "kind": "in"}
+{"id": "fresh-079", "category": "in_card", "subcategory": "min_payment", "state": "smallest amount i can pay on my amex", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-080", "category": "in_messy", "subcategory": "routing", "state": "can you give me the ABA number for my account", "proposed_label": "routing", "kind": "in"}
+{"id": "fresh-081", "category": "context", "subcategory": "pair11_control", "pair": 11, "state": {"customer_message": "What's the minimum I need to pay?", "account": {"type": "bill", "name": "Water bill, City Utilities"}}, "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-082", "category": "in_messy", "subcategory": "bill_due", "state": "I always forget, what day is the electric bill due this month?", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-083", "category": "near_card", "subcategory": "apr", "state": "what's the APR on my credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-084", "category": "near_bank", "subcategory": "branch_atm", "state": "is there a branch near the airport", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-085", "category": "in_messy", "subcategory": "min_payment", "state": "Can you tell me the minimum payment for my internet bill", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-086", "category": "near_bank", "subcategory": "international", "state": "what's the exchange rate for euros today", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-087", "category": "in_card", "subcategory": "bill_balance", "state": "how much do i owe on my credit card", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-088", "category": "near_bank", "subcategory": "branch_atm", "state": "where's the closest ATM", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-089", "category": "in_messy", "subcategory": "interest_rate", "state": "how much interest does my money market account pay", "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-090", "category": "context", "subcategory": "pair09_control", "pair": 9, "state": {"customer_message": "Someone made a charge on this I didn't authorize.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-091", "category": "near_bank", "subcategory": "pay_another_person", "state": "move money to my brother's checking account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-092", "category": "near_bank", "subcategory": "direct_deposit", "state": "can i split my direct deposit between two accounts", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-093", "category": "near_bank", "subcategory": "overdraft", "state": "What's your overdraft fee?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-094", "category": "in_messy", "subcategory": "min_payment", "state": "how little can I pay on the cable bill and still be ok", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-095", "category": "in_messy", "subcategory": "report_fraud", "state": "my debit card got used in another country while I was home", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-096", "category": "context", "subcategory": "pair04_flip", "pair": 4, "state": {"customer_message": "What's the rate on this account?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-097", "category": "near_bank", "subcategory": "pay_another_person", "state": "Can you transfer $300 to my sister's account?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-098", "category": "near_bank", "subcategory": "loans", "state": "how do I apply for a student loan", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-099", "category": "near_card", "subcategory": "declined", "state": "my mastercard got denied twice today", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-100", "category": "in_messy", "subcategory": "bill_balance", "state": "remind me what the water bill came to", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-101", "category": "in_messy", "subcategory": "balance", "state": "Can you check how much is sitting in my joint account with my wife?", "proposed_label": "balance", "kind": "in"}
+{"id": "fresh-102", "category": "in_card", "subcategory": "report_fraud", "state": "my amex has a charge from a hotel I never stayed at", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-103", "category": "in_messy", "subcategory": "transactions", "state": "I'd like to see the last 10 transactions on my savings account.", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-104", "category": "context", "subcategory": "pair12_control", "pair": 12, "state": {"customer_message": "Pay it in full today.", "account": {"type": "bill", "name": "Internet bill, Fibrelink"}}, "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-105", "category": "in_card", "subcategory": "report_fraud", "state": "fraudulent purchases on my credit card, need to report them", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-106", "category": "near_card", "subcategory": "other_card", "state": "is there a foreign transaction fee on my visa", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-107", "category": "near_card", "subcategory": "apr", "state": "Can you tell me the cash advance rate on my card?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-108", "category": "in_messy", "subcategory": "interest_rate", "state": "is the interest rate on my checking still 0.5 percent", "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-109", "category": "near_card", "subcategory": "limit", "state": "how high is the limit on my mastercard", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-110", "category": "in_card", "subcategory": "report_fraud", "state": "I need to report fraud on my visa, someone bought a TV with it", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-111", "category": "context", "subcategory": "pair02_flip", "pair": 2, "state": {"customer_message": "I want to change the PIN.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}, "proposed_label": "pin_change", "kind": "in"}
+{"id": "fresh-112", "category": "in_messy", "subcategory": "transfer", "state": "move $200 from checking to savings", "proposed_label": "transfer", "kind": "in"}
+{"id": "fresh-113", "category": "in_card", "subcategory": "min_payment", "state": "what's the lowest I can pay on my credit card bill without a late fee", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-114", "category": "in_card", "subcategory": "bill_due", "state": "What day is my credit card bill due this month?", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-115", "category": "in_messy", "subcategory": "bill_balance", "state": "What's the total I owe on my internet bill? Want to double check before I pay it.", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-116", "category": "in_card", "subcategory": "bill_balance", "state": "Can you tell me how much I owe on my store credit card?", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-117", "category": "in_messy", "subcategory": "account_blocked", "state": "Why is there a hold on my checking account? I deposited a check on Monday and now I can't touch any of it.", "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-118", "category": "context", "subcategory": "pair02_flip", "pair": 2, "state": {"customer_message": "I want to change the PIN.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-119", "category": "near_bank", "subcategory": "loans", "state": "I want to refinance my house", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-120", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "my credit card needs activating", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-121", "category": "near_bank", "subcategory": "statements_tax", "state": "can you mail me a paper statement", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-122", "category": "in_messy", "subcategory": "transactions", "state": "list recent activity on my account please", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-123", "category": "near_bank", "subcategory": "loans", "state": "what credit score do I need for a loan", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-124", "category": "context", "subcategory": "pair07_control", "pair": 7, "state": {"customer_message": "List my last five purchases.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}, "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-125", "category": "near_bank", "subcategory": "statements_tax", "state": "send me my tax forms", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-126", "category": "context", "subcategory": "pair04_flip", "pair": 4, "state": {"customer_message": "What's the rate on this account?", "account": {"type": "savings", "name": "High Yield Savings ending 9034"}}, "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-127", "category": "near_bank", "subcategory": "direct_deposit", "state": "how do I set up direct deposit", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-128", "category": "in_card", "subcategory": "pay_bill", "state": "I want to pay $300 toward my credit card bill", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-129", "category": "in_messy", "subcategory": "order_checks", "state": "can i get a box of checks mailed to my house", "proposed_label": "order_checks", "kind": "in"}
+{"id": "fresh-130", "category": "in_messy", "subcategory": "transactions", "state": "Can you list everything that came out of my checking this week?", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-131", "category": "near_card", "subcategory": "apr", "state": "what's the interest rate on my store credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-132", "category": "in_messy", "subcategory": "interest_rate", "state": "what interest am I earning on my savings", "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-133", "category": "near_bank", "subcategory": "international", "state": "I need to send money to my mom in India", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-134", "category": "context", "subcategory": "pair06_flip", "pair": 6, "state": {"customer_message": "Is this account blocked? Nothing is going through.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-135", "category": "in_messy", "subcategory": "interest_rate", "state": "tell me the APY on my savings", "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-136", "category": "in_card", "subcategory": "bill_due", "state": "What's the due date on my visa bill?", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-137", "category": "near_card", "subcategory": "rewards", "state": "What can I redeem my credit card points for?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-138", "category": "in_messy", "subcategory": "pin_change", "state": "How do I update my PIN, I keep forgetting the old one", "proposed_label": "pin_change", "kind": "in"}
+{"id": "fresh-139", "category": "near_card", "subcategory": "apr", "state": "whats the purchase apr on my mastercard", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-140", "category": "in_card", "subcategory": "transactions", "state": "what did i put on my credit card yesterday", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-141", "category": "in_messy", "subcategory": "interest_rate", "state": "What's the current rate on my high yield savings account?", "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-142", "category": "near_bank", "subcategory": "direct_deposit", "state": "Can you send me a direct deposit form for my new job?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-143", "category": "near_bank", "subcategory": "statements_tax", "state": "How do I go paperless for statements?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-144", "category": "in_messy", "subcategory": "bill_balance", "state": "can you tell me the amount owed on my phone bill", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-145", "category": "in_messy", "subcategory": "balance", "state": "i need to know if i have enough for rent, whats the current balance in my main account", "proposed_label": "balance", "kind": "in"}
+{"id": "fresh-146", "category": "context", "subcategory": "pair07_control", "pair": 7, "state": {"customer_message": "List my last five purchases.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-147", "category": "in_card", "subcategory": "bill_balance", "state": "What's my credit card bill this month?", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-148", "category": "near_bank", "subcategory": "pay_another_person", "state": "pay back my coworker $20 from my account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-149", "category": "in_messy", "subcategory": "bill_balance", "state": "how big is my electricity bill this time, the heat was on all month", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-150", "category": "near_card", "subcategory": "limit_increase", "state": "how do I get my amex limit bumped up", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-151", "category": "near_bank", "subcategory": "open_account", "state": "I want to open a savings account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-152", "category": "in_card", "subcategory": "pay_bill", "state": "pay my credit card bill from checking", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-153", "category": "near_card", "subcategory": "apr", "state": "did my credit card apr change", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-154", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "activate my new credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-155", "category": "near_card", "subcategory": "limit_increase", "state": "I'd like a higher limit on my visa please.", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-156", "category": "in_card", "subcategory": "bill_due", "state": "when's the next payment due on my credit card", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-157", "category": "in_messy", "subcategory": "min_payment", "state": "What's the smallest payment I can make on my phone bill this month without a penalty?", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-158", "category": "near_card", "subcategory": "limit", "state": "is my credit limit still $5,000", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-159", "category": "in_card", "subcategory": "min_payment", "state": "how much is the minimum on my discover bill", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-160", "category": "near_card", "subcategory": "limit_increase", "state": "increase the limit on my credit card to 10k", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-161", "category": "near_card", "subcategory": "limit_increase", "state": "request a credit line increase", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-162", "category": "near_bank", "subcategory": "contact_details", "state": "need to change my mailing address before my statements go out", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-163", "category": "in_messy", "subcategory": "account_blocked", "state": "got a notice that my account is on hold pending review. what does that mean and why", "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-164", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "do i pay a yearly fee for my amex", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-165", "category": "in_messy", "subcategory": "pay_bill", "state": "pay my electric bill from checking", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-166", "category": "in_messy", "subcategory": "bill_balance", "state": "how much do i still owe on my gas bill this month", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-167", "category": "context", "subcategory": "pair08_control", "pair": 8, "state": {"customer_message": "How much do I owe?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-168", "category": "in_messy", "subcategory": "spending_history", "state": "total spent on coffee shops in october?", "proposed_label": "spending_history", "kind": "in"}
+{"id": "fresh-169", "category": "near_card", "subcategory": "replacement", "state": "my credit card snapped in half", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-170", "category": "near_card", "subcategory": "limit_increase", "state": "can you raise my credit limit", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-171", "category": "in_messy", "subcategory": "bill_balance", "state": "what do I owe for the cable bill", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-172", "category": "in_messy", "subcategory": "pin_change", "state": "i want to change the pin on my account", "proposed_label": "pin_change", "kind": "in"}
+{"id": "fresh-173", "category": "near_card", "subcategory": "declined", "state": "why won't my credit card work", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-174", "category": "near_bank", "subcategory": "statements_tax", "state": "where do I find my 1099 for interest", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-175", "category": "in_card", "subcategory": "pay_bill", "state": "make a payment on my amex", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-176", "category": "near_card", "subcategory": "other_card", "state": "can I do a balance transfer to my credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-177", "category": "in_card", "subcategory": "pay_bill", "state": "can you pay the minimum on my credit card", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-178", "category": "near_card", "subcategory": "other_card", "state": "can I add my credit card to apple pay", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-179", "category": "in_messy", "subcategory": "pin_change", "state": "change pin to something new", "proposed_label": "pin_change", "kind": "in"}
+{"id": "fresh-180", "category": "in_card", "subcategory": "transactions", "state": "what are the latest transactions on my amex", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-181", "category": "near_card", "subcategory": "application", "state": "can my daughter get her own credit card on my account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-182", "category": "near_bank", "subcategory": "overdraft", "state": "can you link my savings for overdraft protection", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-183", "category": "in_card", "subcategory": "bill_balance", "state": "total due on my mastercard bill?", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-184", "category": "in_messy", "subcategory": "transactions", "state": "what went in and out of my account yesterday", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-185", "category": "near_bank", "subcategory": "branch_atm", "state": "are you open on saturdays", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-186", "category": "in_card", "subcategory": "bill_due", "state": "is my mastercard payment due this week", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-187", "category": "near_card", "subcategory": "limit", "state": "whats the spending limit on my amex", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-188", "category": "in_card", "subcategory": "transactions", "state": "list my credit card activity from the past few days", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-189", "category": "near_bank", "subcategory": "direct_deposit", "state": "how long does it take to set up direct deposit", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-190", "category": "near_bank", "subcategory": "international", "state": "wire $2,000 to an account in Mexico", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-191", "category": "in_messy", "subcategory": "transfer", "state": "send $75 from my checking to my savings please", "proposed_label": "transfer", "kind": "in"}
+{"id": "fresh-192", "category": "near_card", "subcategory": "rewards", "state": "Do my amex points expire?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-193", "category": "in_messy", "subcategory": "report_fraud", "state": "someone took money out of my account without asking", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-194", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "is my mastercard about to expire", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-195", "category": "near_card", "subcategory": "limit", "state": "How much credit do I have available on my visa?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-196", "category": "near_card", "subcategory": "limit", "state": "how much more can i charge before i hit my limit", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-197", "category": "near_card", "subcategory": "declined", "state": "why is my credit card being declined when I have plenty of credit left", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-198", "category": "in_card", "subcategory": "transactions", "state": "Show the most recent transactions on my discover card.", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-199", "category": "near_bank", "subcategory": "branch_atm", "state": "find me an atm that doesn't charge fees", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-200", "category": "in_messy", "subcategory": "order_checks", "state": "running out of checks, send more", "proposed_label": "order_checks", "kind": "in"}
+{"id": "fresh-201", "category": "context", "subcategory": "pair08_control", "pair": 8, "state": {"customer_message": "How much do I owe?", "account": {"type": "bill", "name": "Electricity bill, City Power"}}, "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-202", "category": "near_card", "subcategory": "replacement", "state": "my mastercard chip stopped working", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-203", "category": "in_messy", "subcategory": "spending_history", "state": "how much money went to uber this month", "proposed_label": "spending_history", "kind": "in"}
+{"id": "fresh-204", "category": "near_bank", "subcategory": "close_account", "state": "What happens to my money if I close my account?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-205", "category": "in_card", "subcategory": "report_fraud", "state": "I see three charges on my card from a gas station two states away", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-206", "category": "near_card", "subcategory": "other_card", "state": "change the due date on my credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-207", "category": "in_messy", "subcategory": "routing", "state": "what's my routing number", "proposed_label": "routing", "kind": "in"}
+{"id": "fresh-208", "category": "near_card", "subcategory": "declined", "state": "Is there a problem with my credit card? It was declined at the pharmacy.", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-209", "category": "in_messy", "subcategory": "report_fraud", "state": "Please flag the $39.99 charge from yesterday as fraud", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-210", "category": "in_card", "subcategory": "report_fraud", "state": "someone used my mastercard number online without permission", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-211", "category": "near_bank", "subcategory": "international", "state": "Do you charge fees for using my debit card abroad?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-212", "category": "in_messy", "subcategory": "pay_bill", "state": "I'd like to pay my internet bill now, the full amount", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-213", "category": "in_messy", "subcategory": "balance", "state": "how much money is in my checking right now", "proposed_label": "balance", "kind": "in"}
+{"id": "fresh-214", "category": "in_messy", "subcategory": "order_checks", "state": "order checks for my business checking account", "proposed_label": "order_checks", "kind": "in"}
+{"id": "fresh-215", "category": "near_card", "subcategory": "other_card", "state": "can you lower the interest on my credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-216", "category": "in_card", "subcategory": "min_payment", "state": "How much is the minimum due on my visa this month?", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-217", "category": "in_card", "subcategory": "bill_due", "state": "I need the due date for my discover bill", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-218", "category": "in_card", "subcategory": "report_fraud", "state": "Please report the $89 charge on my credit card as fraud, I've never heard of that merchant.", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-219", "category": "in_messy", "subcategory": "freeze_account", "state": "freeze my account asap", "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-220", "category": "context", "subcategory": "pair06_flip", "pair": 6, "state": {"customer_message": "Is this account blocked? Nothing is going through.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}, "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-221", "category": "in_card", "subcategory": "report_fraud", "state": "Someone is making charges on my credit card. I still have the card with me.", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-222", "category": "in_messy", "subcategory": "pay_bill", "state": "use my savings to pay off the phone bill", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-223", "category": "near_bank", "subcategory": "close_account", "state": "how do i shut down my account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-224", "category": "context", "subcategory": "pair01_flip", "pair": 1, "state": {"customer_message": "Please lock it right now, I think someone has my details.", "account": {"type": "savings", "name": "High Yield Savings ending 9034"}}, "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-225", "category": "near_card", "subcategory": "replacement", "state": "I think I lost my credit card at the airport", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-226", "category": "in_messy", "subcategory": "pin_change", "state": "reset my pin please", "proposed_label": "pin_change", "kind": "in"}
+{"id": "fresh-227", "category": "in_messy", "subcategory": "min_payment", "state": "minimum due on my water bill?", "proposed_label": "min_payment", "kind": "in"}
+{"id": "fresh-228", "category": "near_card", "subcategory": "rewards", "state": "can i use my rewards to pay for a hotel", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-229", "category": "context", "subcategory": "pair01_flip", "pair": 1, "state": {"customer_message": "Please lock it right now, I think someone has my details.", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-230", "category": "near_bank", "subcategory": "branch_atm", "state": "What time does the branch on Main Street close?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-231", "category": "near_card", "subcategory": "rewards", "state": "how many miles have i earned on my travel card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-232", "category": "in_messy", "subcategory": "pay_bill", "state": "send the payment for my cable bill this afternoon", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-233", "category": "in_messy", "subcategory": "routing", "state": "My employer needs the routing number for direct deposit, what is it?", "proposed_label": "routing", "kind": "in"}
+{"id": "fresh-234", "category": "near_card", "subcategory": "limit", "state": "what's my credit limit", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-235", "category": "near_card", "subcategory": "replacement", "state": "I need a replacement amex, I left mine in a taxi", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-236", "category": "near_bank", "subcategory": "international", "state": "can I order foreign currency before my trip", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-237", "category": "near_bank", "subcategory": "statements_tax", "state": "I need a copy of last month's statement", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-238", "category": "in_messy", "subcategory": "transfer", "state": "Can you transfer five hundred dollars from my savings into my checking account tonight?", "proposed_label": "transfer", "kind": "in"}
+{"id": "fresh-239", "category": "in_messy", "subcategory": "bill_due", "state": "need the due date for my car insurance bill", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-240", "category": "context", "subcategory": "pair00_flip", "pair": 0, "state": {"customer_message": "What's my interest rate?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-241", "category": "near_bank", "subcategory": "direct_deposit", "state": "I want my paycheck deposited straight into savings, how do I set that up", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-242", "category": "in_messy", "subcategory": "transfer", "state": "I want to shift some money between my two accounts, $1,000 from savings to checking", "proposed_label": "transfer", "kind": "in"}
+{"id": "fresh-243", "category": "near_bank", "subcategory": "pay_another_person", "state": "send $50 to my friend Jake", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-244", "category": "near_card", "subcategory": "replacement", "state": "My visa is cracked and won't swipe. Can you send a replacement?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-245", "category": "context", "subcategory": "pair09_control", "pair": 9, "state": {"customer_message": "Someone made a charge on this I didn't authorize.", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}, "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-246", "category": "near_bank", "subcategory": "open_account", "state": "sign me up for a new checking account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-247", "category": "in_messy", "subcategory": "freeze_account", "state": "Can you put a lock on my bank account until I get back from vacation?", "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-248", "category": "near_card", "subcategory": "rewards", "state": "how much cash back did i earn this month", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-249", "category": "near_card", "subcategory": "declined", "state": "my amex was rejected at the store even though I paid it off", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-250", "category": "in_messy", "subcategory": "freeze_account", "state": "stop all activity on my checking account right away, something is wrong", "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-251", "category": "near_card", "subcategory": "rewards", "state": "transfer my credit card points to an airline", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-252", "category": "near_bank", "subcategory": "overdraft", "state": "opt me out of overdraft", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-253", "category": "near_bank", "subcategory": "close_account", "state": "I'd like to close my checking account and move everything elsewhere.", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-254", "category": "context", "subcategory": "pair00_flip", "pair": 0, "state": {"customer_message": "What's my interest rate?", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}, "proposed_label": "interest_rate", "kind": "in"}
+{"id": "fresh-255", "category": "near_bank", "subcategory": "contact_details", "state": "How do I update my email for account alerts?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-256", "category": "in_messy", "subcategory": "bill_due", "state": "When do I have to pay the internet bill by?", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-257", "category": "in_messy", "subcategory": "report_fraud", "state": "I want to report a fraudulent transaction of $214 from a store I've never been to.", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-258", "category": "near_bank", "subcategory": "overdraft", "state": "turn off overdraft protection", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-259", "category": "near_card", "subcategory": "replacement", "state": "send me a new credit card, mine expired", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-260", "category": "near_card", "subcategory": "other_card", "state": "close my credit card account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-261", "category": "near_card", "subcategory": "apr", "state": "What interest rate am I paying on my credit card balance?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-262", "category": "near_bank", "subcategory": "open_account", "state": "Can I open a CD with you?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-263", "category": "near_card", "subcategory": "declined", "state": "My visa keeps getting declined online. What's wrong with it?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-264", "category": "near_bank", "subcategory": "contact_details", "state": "add my new last name to my account, I just got married", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-265", "category": "near_bank", "subcategory": "loans", "state": "what's the rate on a car loan", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-266", "category": "in_messy", "subcategory": "account_blocked", "state": "I'm traveling for work and suddenly my account shows as frozen. I didn't do that. What's going on with it?", "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-267", "category": "in_messy", "subcategory": "order_checks", "state": "How do I get new checks? I just want the same design as before.", "proposed_label": "order_checks", "kind": "in"}
+{"id": "fresh-268", "category": "in_messy", "subcategory": "bill_due", "state": "is my water bill due before or after the 15th", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-269", "category": "in_card", "subcategory": "report_fraud", "state": "report a fake charge on my capital one card", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-270", "category": "in_messy", "subcategory": "balance", "state": "Before I go grocery shopping can you tell me what I've got in my savings account?", "proposed_label": "balance", "kind": "in"}
+{"id": "fresh-271", "category": "near_bank", "subcategory": "contact_details", "state": "change the phone number on my account", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-272", "category": "near_card", "subcategory": "limit", "state": "what's the max I can put on my credit card", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-273", "category": "near_bank", "subcategory": "international", "state": "how much does an international wire cost", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-274", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "when does my credit card expire", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-275", "category": "near_bank", "subcategory": "close_account", "state": "close the joint account, we're separating", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-276", "category": "near_card", "subcategory": "application", "state": "check the status of my credit card application", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-277", "category": "in_messy", "subcategory": "spending_history", "state": "what did i spend on gas this year", "proposed_label": "spending_history", "kind": "in"}
+{"id": "fresh-278", "category": "near_bank", "subcategory": "overdraft", "state": "how does overdraft coverage work", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-279", "category": "near_card", "subcategory": "activation_expiry_fee", "state": "Can you waive the annual fee on my visa this year?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-280", "category": "near_card", "subcategory": "application", "state": "I'd like to upgrade to a premium credit card.", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-281", "category": "in_card", "subcategory": "report_fraud", "state": "there's a charge on my credit card I didn't make", "proposed_label": "report_fraud", "kind": "in"}
+{"id": "fresh-282", "category": "near_card", "subcategory": "other_card", "state": "my credit card has a hold on it, why?", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-283", "category": "near_card", "subcategory": "declined", "state": "why did my credit card get declined at the gas station", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-284", "category": "near_card", "subcategory": "apr", "state": "how much interest does my amex charge", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-285", "category": "in_messy", "subcategory": "pin_change", "state": "Can I set a new PIN for my checking account? I think someone saw me type it.", "proposed_label": "pin_change", "kind": "in"}
+{"id": "fresh-286", "category": "in_messy", "subcategory": "account_blocked", "state": "hey so I tried to log in this morning and it says my account is restricted?? what happened", "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-287", "category": "in_card", "subcategory": "bill_balance", "state": "how much is my visa bill", "proposed_label": "bill_balance", "kind": "in"}
+{"id": "fresh-288", "category": "context", "subcategory": "pair10_control", "pair": 10, "state": {"customer_message": "When is the payment due?", "account": {"type": "credit card", "name": "Visa Platinum credit card ending 4417"}}, "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-289", "category": "context", "subcategory": "pair03_flip", "pair": 3, "state": {"customer_message": "Why is there a hold on it?", "account": {"type": "checking", "name": "Everyday Checking ending 2281", "card": "debit card"}}, "proposed_label": "account_blocked", "kind": "in"}
+{"id": "fresh-290", "category": "in_messy", "subcategory": "pay_bill", "state": "Can you pay the water bill today so it's not late?", "proposed_label": "pay_bill", "kind": "in"}
+{"id": "fresh-291", "category": "near_bank", "subcategory": "pay_another_person", "state": "send money to someone at another bank", "proposed_label": "out_of_scope", "kind": "near"}
+{"id": "fresh-292", "category": "in_card", "subcategory": "transactions", "state": "show me everything I charged to my mastercard this week", "proposed_label": "transactions", "kind": "in"}
+{"id": "fresh-293", "category": "in_messy", "subcategory": "bill_due", "state": "when's my phone bill due", "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-294", "category": "context", "subcategory": "pair05_flip", "pair": 5, "state": {"customer_message": "Freeze it please.", "account": {"type": "savings", "name": "High Yield Savings ending 9034"}}, "proposed_label": "freeze_account", "kind": "in"}
+{"id": "fresh-295", "category": "context", "subcategory": "pair10_control", "pair": 10, "state": {"customer_message": "When is the payment due?", "account": {"type": "bill", "name": "Phone bill, Northwind Mobile"}}, "proposed_label": "bill_due", "kind": "in"}
+{"id": "fresh-296", "category": "in_card", "subcategory": "bill_due", "state": "when do i have to pay my amex by", "proposed_label": "bill_due", "kind": "in"}

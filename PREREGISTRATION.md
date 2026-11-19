@@ -194,4 +194,35 @@ spending cap; anything not run is reported as not run.
 
 ## Deviations
 
-None yet.
+- **November 18, after the freeze.** The first Claude Haiku 5.5 run was made with an Anthropic key that
+  had stopped working, so every request came back `401 invalid x-api-key` and was recorded as an
+  escalation. Those rows hold no model output; they were moved out of `results/raw/` and removed from
+  the cost ledger. `dmc/run.py` now stops on a 401 or 403 and records nothing, because a rejected key
+  is a setup problem, not a model failure. Every other error is still recorded as an escalation, as
+  section 5 says. No decision model had been run when this happened.
+- **November 18, during `r1`.** To finish the runs within the week from a sandbox whose calls last
+  at most three minutes, batches went from 40 items to 80 (120 for part of base test), with up to 64
+  requests in flight. Every model still gets each batch before the next batch starts, so the
+  round-robin design holds. `dmc/run.py` gained `--budget-seconds` and `scripts/drive.py` runs the
+  steps in order inside that budget; a line cut off when a call ends is skipped and rerun.
+- **November 18, during `r1`.** The internet connection on the machine running the calls dropped
+  for a while. A request that got no HTTP answer at all (a failed connection on our side, not an
+  error from the provider) is now retried when the run resumes, and the retry replaces it. Errors
+  that come back from a provider, and answers that can't be read, still count as escalations.
+- **November 18, before any model saw the fresh set: who did the blind labelling pass.** Section 4
+  planned a blind pass by me. Short on time, I asked the AI assistant that helped build this
+  benchmark to do it instead: a Claude model, the same family as the two Claude baselines, and none
+  of the decision models under test. It labelled all 296 messages from `messages.jsonl` and the
+  rules, without the stored proposed labels in view. It agreed with them on 296 of 296 (kappa 1.0).
+  That number says little about label quality: the same assistant drafted the set, so the two
+  passes are not independent, and the post says so. The value of the pass is in the borderline
+  cases it flagged. Three messages that can honestly be read two ways are dropped
+  (fresh-007, fresh-013, fresh-132, with reasons in `labels_final.jsonl`), leaving 293. The
+  proposed labels and the script that built the set are committed unchanged with this change, and
+  their hashes match section 3.
+- **November 18, before any model saw the fresh set: a second general model.** Claude Sonnet 5.5
+  (`claude-sonnet-5-5`) is added as an exploratory baseline, run like Haiku (same prompt, stated
+  confidence, thinking off), on the fresh set only, in all three conditions, run `r1`. It is
+  reported next to the other models but kept out of the tie groups, the comparison families and
+  the hypotheses, whose counts (7 of 13) stay as written. The fresh set now runs only once
+  `labels_final.jsonl` is committed and unchanged (`run_all.sh` checks this).

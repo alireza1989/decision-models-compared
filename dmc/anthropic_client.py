@@ -20,8 +20,8 @@ from dmc.openrouter import RETRY_CODES, DecisionError, load_env
 ENDPOINT = "https://api.anthropic.com/v1/messages"
 ROUTING_SYSTEM = "You are the router for a banking support agent. You decide which skill should handle a customer message."
 W2C_SYSTEM = "You decide the next step of an AI assistant that can call tools."
-# Claude Haiku 5.5 list price per million tokens for prompts under 100,000 tokens (platform.claude.com, Nov 2026).
-PRICE_PER_M = {"claude-haiku-5-5": (0.10, 0.50)}
+# List prices per million input and output tokens, prompts under 100,000 tokens (Anthropic's pricing page, Nov 2026).
+PRICE_PER_M = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00)}
 
 
 def routing_prompt(state, criteria: dict) -> str:

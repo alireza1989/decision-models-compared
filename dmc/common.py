@@ -121,10 +121,33 @@ def w2c_state(row: dict) -> dict:
 # ---- data -------------------------------------------------------------------------------------
 
 def read_jsonl(path: Path) -> list[dict]:
+    """Reads one JSON object per line. A line cut off by a killed run is skipped (and rerun on resume)."""
     if not path.exists():
         return []
+    out = []
     with open(path) as f:
-        return [json.loads(line) for line in f if line.strip()]
+        for line in f:
+            if line.strip():
+                try:
+                    out.append(json.loads(line))
+                except json.JSONDecodeError:
+                    print(f"skipping a broken line in {path.name}")
+    return out
+
+
+def is_network_error(row: dict) -> bool:
+    """True when the request never got an HTTP answer (our connection failed), as opposed to a provider error."""
+    err = row.get("error") or ""
+    return bool(err) and not err.startswith(("HTTP ", "unreadable answer"))
+
+
+def latest(rows: list[dict]) -> list[dict]:
+    """One row per id: a retried request replaces a row that failed on our network, in the original order."""
+    best: dict = {}
+    for r in rows:
+        if r["id"] not in best or is_network_error(best[r["id"]]):
+            best[r["id"]] = r
+    return list(best.values())
 
 
 def kind_of(label: str) -> str:

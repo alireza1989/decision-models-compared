@@ -23,7 +23,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 from dmc.common import (CONDITIONS, INSTRUCTIONS, LABELS, OOS, RESULTS, UNWORDED, W2C_DESCRIPTIONS,
-                        W2C_INSTRUCTIONS, W2C_LABELS, descriptions, load, read_jsonl)
+                        W2C_INSTRUCTIONS, W2C_LABELS, descriptions, is_network_error, load, read_jsonl)
 
 LEDGER = RESULTS / "cost_ledger.jsonl"
 _lock = threading.Lock()
@@ -98,6 +98,7 @@ def main() -> None:
     ap.add_argument("--batch", type=int, default=40, help="items per model before moving to the next model")
     ap.add_argument("--workers", type=int, default=24)
     ap.add_argument("--cap", type=float, default=15.0, help="stop when total OpenRouter spend in the ledger reaches this, in USD")
+    ap.add_argument("--budget-seconds", type=float, default=0, help="stop starting new batches after this long (0: no limit); rerun to resume")
     args = ap.parse_args()
 
     if args.provider == "anthropic":
@@ -119,7 +120,12 @@ def main() -> None:
     outdir = RESULTS / "raw" / args.run
     outdir.mkdir(parents=True, exist_ok=True)
     paths = {m: outdir / f"{m.replace('/', '__')}.{tag}.jsonl" for m in models}
-    done = {m: {r["id"] for r in read_jsonl(p)} for m, p in paths.items()}
+    for p in paths.values():  # a run killed mid-line leaves no newline; start the next record on a fresh line
+        if p.exists() and p.stat().st_size and not p.read_bytes().endswith(b"\n"):
+            with open(p, "a") as f:
+                f.write("\n")
+    # rows that failed on our own network (no HTTP answer) are retried; everything else counts as done
+    done = {m: {r["id"] for r in read_jsonl(p) if not is_network_error(r)} for m, p in paths.items()}
     todo = sum(1 for m in models for r in rows if r["id"] not in done[m])
     client = make_client(args.provider)
     print(f"run={args.run} {tag}: {len(rows)} items x {len(models)} models, {todo} to do; spent so far ${spent():.4f}")
@@ -129,6 +135,9 @@ def main() -> None:
 
     def work(model, row):
         rec = one(client, model, row, qname, q, back, labels, fallback)
+        if (rec.get("error") or "").startswith(("HTTP 401", "HTTP 403")):
+            # A rejected key is a setup problem, not a model failure: stop, and record nothing.
+            raise SystemExit(f"{model}: {rec['error'][:200]}\nStopped without recording anything. Fix the key in .env and rerun.")
         with _lock:
             with open(paths[model], "a") as f:
                 f.write(json.dumps(rec) + "\n")
@@ -145,10 +154,18 @@ def main() -> None:
             if spent() >= args.cap:
                 print(f"cost cap ${args.cap} reached; stopping")
                 break
+            if args.budget_seconds and time.time() - t0 > args.budget_seconds:
+                print(f"time budget reached after {time.time() - t0:.0f}s; rerun to resume")
+                raise SystemExit(3)
             futures = []
             for m in models:  # round-robin: every model gets this chunk before the next chunk starts
                 futures += [pool.submit(work, m, r) for r in chunk if r["id"] not in done[m]]
-            errs = sum(1 for f in futures if f.result().get("error"))
+            try:
+                errs = sum(1 for f in futures if f.result().get("error"))
+            except SystemExit:
+                for f in futures:
+                    f.cancel()
+                raise
             print(f"  {min(start + args.batch, len(rows))}/{len(rows)}  errors={errs}  spent=${spent():.4f}  {time.time() - t0:.0f}s", flush=True)
     print("done")
 

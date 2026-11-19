@@ -1,7 +1,7 @@
 # decision-models-compared
 
 Companion repo for my second post on decision models. It runs 12 decision models and a Claude Haiku
-5.5 baseline as agent gates, on the same tests, and scores them on more than accuracy: whether the
+5.5 baseline as agent gates, on the same tests (plus Claude Sonnet 5.5 on the fresh set, as an extra), and scores them on more than accuracy: whether the
 probabilities are honest, whether a threshold picked on validation keeps its promise on new traffic,
 whether answers survive small changes and a planted policy, and what each decision costs and how
 long it takes.
