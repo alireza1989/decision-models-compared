@@ -5,7 +5,7 @@
 #   ./run_all.sh openrouter      # the 12 decision models (needs OPENROUTER_API_KEY in .env)
 #   ./run_all.sh anthropic       # Claude Haiku 5.5, plus Sonnet 5.5 on the fresh set (needs ANTHROPIC_API_KEY in .env)
 #   ./run_all.sh latency         # 200 sequential calls per model (Jev direct needs TYPESAFE_API_KEY)
-#   ./run_all.sh analysis        # summary.json, tables and figures from saved results only
+#   ./run_all.sh analysis        # summary.json, tables and figures from saved results only (no API key needed)
 #
 # Runs resume: rerunning a step skips every item already in results/raw/. Python 3.9 or newer;
 # the API steps use the standard library only, the analysis needs numpy and matplotlib.
@@ -67,7 +67,7 @@ case "$WHAT" in
   openrouter) data; gates openrouter ;;
   anthropic)  data; gates anthropic; sonnet ;;
   latency)    $PY -m dmc.latency --budget-seconds 1e9 ;;
-  analysis)   $PY -m dmc.evaluate ;;
-  all)        data; gates openrouter; gates anthropic; sonnet; $PY -m dmc.latency --budget-seconds 1e9; $PY -m dmc.evaluate ;;
+  analysis)   $PY -m dmc.evaluate && $PY -m dmc.figures ;;
+  all)        data; gates openrouter; gates anthropic; sonnet; $PY -m dmc.latency --budget-seconds 1e9; $PY -m dmc.evaluate; $PY -m dmc.figures ;;
   *) echo "unknown step: $WHAT"; exit 2 ;;
 esac
