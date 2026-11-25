@@ -260,42 +260,57 @@ def fig_cost_latency(s):
 
 
 def fig_gate(s):
-    """How the gate works, with one real answer from the runs (fresh-091, Liquid d1.2-ultra, tighter scope sentence)."""
+    """How the gate works, with one real answer from the runs (fresh-091, Liquid d1.2-ultra, tighter scope sentence).
+
+    A vertical flow: customer message, decision model, answer and gate rule stacked on one center line,
+    then "yes" and "no" straight down to the two outcomes, side by side."""
     from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
     row = next(r for r in rows_of("r1", "liquid/d1.2-ultra", "scoped_v2.fresh") if r["id"] == "fresh-091")
     t = s["routing"]["thresholds"]["scoped_v2"]["liquid/d1.2-ultra"]["threshold"]
     p_transfer, p_oos = row["probs"]["transfer"], row["probs"]["out_of_scope"]
-    fig, ax = plt.subplots(figsize=(6.6, 3.9))
-    ax.set_xlim(0, 100)
-    ax.set_ylim(0, 60)
+    # Units are inches: the figure is 5.5 x 10.2 in, drawn on one axes that fills it.
+    fig = plt.figure(figsize=(5.5, 10.2))
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax.set_xlim(0, 5.5)
+    ax.set_ylim(0, 10.2)
     ax.axis("off")
 
-    def box(x0, y0, w, h, title, body="", fill="#f3f3f3", ink=INK, edge=AXIS):
-        ax.add_patch(FancyBboxPatch((x0, y0), w, h, boxstyle="round,pad=0,rounding_size=1.6",
-                                    facecolor=fill, edgecolor=edge, linewidth=0.9))
-        if body:
-            ax.text(x0 + w / 2, y0 + h - 3.4, title, ha="center", va="top", fontsize=9, fontweight="bold", color=ink)
-            ax.text(x0 + w / 2, y0 + h - 9.6, body, ha="center", va="top", fontsize=8, color=ink, linespacing=1.4)
-        else:
-            ax.text(x0 + w / 2, y0 + h / 2, title, ha="center", va="center", fontsize=9, fontweight="bold", color=ink)
+    def box(x0, top, w, h, title, lines=(), fill="#f3f3f3", ink=INK, edge=AXIS):
+        ax.add_patch(FancyBboxPatch((x0, top - h), w, h, boxstyle="round,pad=0,rounding_size=0.1",
+                                    facecolor=fill, edgecolor=edge, linewidth=1.4))
+        cx = x0 + w / 2
+        if not lines:
+            ax.text(cx, top - h / 2, title, ha="center", va="center", fontsize=14, fontweight="bold", color=ink)
+            return
+        ax.text(cx, top - 0.40, title, ha="center", va="center", fontsize=14, fontweight="bold", color=ink)
+        for i, line in enumerate(lines):
+            ax.text(cx, top - 0.84 - 0.31 * i, line, ha="center", va="center", fontsize=12, color=ink)
 
-    def arrow(a, b):
-        ax.add_patch(FancyArrowPatch(a, b, arrowstyle="-|>", mutation_scale=11, color=INK2, linewidth=1.1, shrinkA=0, shrinkB=0))
+    def arrow(x, y_from, y_to):
+        ax.add_patch(FancyArrowPatch((x, y_from), (x, y_to), arrowstyle="-|>", mutation_scale=16,
+                                     color=INK2, linewidth=1.6, shrinkA=0, shrinkB=0))
 
-    box(1, 34, 29, 24, "Customer message", "\u201cmove money to my\nbrother\u2019s checking\naccount\u201d")
-    box(35.5, 34, 29, 24, "Decision model", "one question with\n16 options: 15 skills\nand out_of_scope", fill=BLUE, ink="white", edge=BLUE)
-    box(70, 34, 29, 24, "Answer", f"transfer: {p_transfer:.2f}\nout_of_scope: {p_oos:.2f}\nthe other 14: {1 - p_transfer - p_oos:.2f}")
-    arrow((30, 46), (35.5, 46))
-    arrow((64.5, 46), (70, 46))
-    box(14, 3, 44, 24, "Gate rule", f"Is the answer a skill, with a probability\nat or above this model\u2019s threshold?\nHere: {p_transfer:.2f} is above {t:.2f}, so yes")
-    arrow((84.5, 34), (48, 27))
-    box(70, 17, 29, 10, "The skill runs")
-    box(70, 3, 29, 10, "A person decides")
-    arrow((58, 18), (70, 22))
-    arrow((58, 12), (70, 8))
-    ax.text(63.6, 22.6, "yes", fontsize=8, color=INK2, ha="center")
-    ax.text(63.6, 6.2, "no", fontsize=8, color=INK2, ha="center")
+    x0, w, cx = 0.125, 5.2, 2.725
+    box(x0, 10.075, w, 1.55, "Customer message", ["\u201cmove money to my brother\u2019s", "checking account\u201d"])
+    arrow(cx, 8.525, 8.075)
+    box(x0, 8.075, w, 1.55, "Decision model", ["one question with 16 options:", "15 skills and out_of_scope"],
+        fill=BLUE, ink="white", edge=BLUE)
+    arrow(cx, 6.525, 6.075)
+    box(x0, 6.075, w, 1.55, "Answer", [f"transfer: {p_transfer:.2f}     out_of_scope: {p_oos:.2f}",
+                                        f"the other 14: {1 - p_transfer - p_oos:.2f}"])
+    arrow(cx, 4.525, 4.025)
+    box(x0, 4.025, w, 1.86, "Gate rule", ["Is the answer a skill, with a probability",
+                                           "at or above this model\u2019s threshold?",
+                                           f"Here: {p_transfer:.2f} is above {t:.2f}, so yes"])
+    left_cx, right_cx, bw = x0 + 1.23, x0 + w - 1.23, 2.46
+    arrow(left_cx, 2.165, 1.05)
+    arrow(right_cx, 2.165, 1.05)
+    ax.text(left_cx + 0.15, 1.61, "yes", fontsize=12, color=INK2, ha="left", va="center")
+    ax.text(right_cx + 0.15, 1.61, "no", fontsize=12, color=INK2, ha="left", va="center")
+    box(x0, 1.05, bw, 0.9, "The skill runs")
+    box(x0 + w - bw, 1.05, bw, 0.9, "A person decides")
     save(fig, "fig0-gate")
+
 
 def main() -> None:
     s = json.load(open(RESULTS / "summary.json"))
